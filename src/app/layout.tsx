@@ -21,19 +21,23 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: "Kafaaat Academy",
-  description: "The Golden Bridge - German Academy",
+  description: "Kafaaat Academy - German Academy",
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
 
 import { getBannerSettings, getCourses } from "./actions";
 
 async function TopBannerWrapper() {
   const config = await getBannerSettings();
-  
-  return <SaleBanner 
-    active={config.isActive} 
-    message={config.message} 
-    description={config.description} 
-    discountPercentage={config.discountPercentage} 
+
+  return <SaleBanner
+    active={config.isActive}
+    message={config.message}
+    description={config.description}
+    discountPercentage={config.discountPercentage}
   />;
 }
 
@@ -44,7 +48,7 @@ export default async function RootLayout({
 }>) {
   const config = await getBannerSettings();
   const courses = await getCourses();
-  
+
   const supabase = await createClient();
   const { data: { user } } = await supabase.auth.getUser();
 
