@@ -1,0 +1,834 @@
+
+> kafaaat@0.1.0 dev
+> next dev
+
+ÔÜá Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\Laith\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\Laith\f1\kafaaat\package-lock.json
+
+Ôû▓ Next.js 16.1.7 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.115:3000
+- Environments: .env.local
+
+Ô£ô Starting...
+ÔÜá The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+Ô£ô Ready in 2.1s
+ GET /login?redirectedFrom=%2Fdashboard 200 in 2.4s (compile: 703ms, proxy.ts: 9ms, render: 1673ms)
+ GET / 200 in 2.1s (compile: 100ms, proxy.ts: 582ms, render: 1376ms)
+ GET /courses/bundle 200 in 2.3s (compile: 1885ms, proxy.ts: 157ms, generate-params: 1450ms, render: 259ms)
+ GET /about 200 in 578ms (compile: 119ms, proxy.ts: 238ms, render: 221ms)
+ GET /blog 200 in 844ms (compile: 662ms, proxy.ts: 107ms, render: 75ms)
+ GET /dashboard 200 in 1158ms (compile: 64ms, proxy.ts: 105ms, render: 989ms)
+ POST /dashboard 200 in 811ms (compile: 12ms, proxy.ts: 194ms, render: 605ms)
+ GET /dashboard 200 in 463ms (compile: 7ms, proxy.ts: 107ms, render: 349ms)
+ GET /blog 200 in 505ms (compile: 8ms, proxy.ts: 170ms, render: 327ms)
+ GET /about 200 in 342ms (compile: 13ms, proxy.ts: 129ms, render: 200ms)
+ GET /dashboard 200 in 647ms (compile: 10ms, proxy.ts: 107ms, render: 531ms)
+ POST /dashboard 200 in 703ms (compile: 8ms, proxy.ts: 209ms, render: 486ms)
+ GET /blog 200 in 177ms (compile: 16ms, proxy.ts: 133ms, render: 28ms)
+ GET /about 200 in 175ms (compile: 48ms, proxy.ts: 119ms, render: 9ms)
+ GET /courses 200 in 310ms (compile: 182ms, proxy.ts: 109ms, render: 18ms)
+ GET / 200 in 142ms (compile: 8ms, proxy.ts: 126ms, render: 8ms)
+ GET /contact 200 in 453ms (compile: 323ms, proxy.ts: 122ms, render: 8ms)
+ GET /about 200 in 553ms (compile: 5ms, proxy.ts: 135ms, render: 414ms)
+ GET /blog 200 in 531ms (compile: 26ms, proxy.ts: 354ms, render: 151ms)
+ GET /dashboard 200 in 3.0s (compile: 16ms, proxy.ts: 135ms, render: 2.8s)
+ GET /dashboard 200 in 1353ms (compile: 14ms, proxy.ts: 321ms, render: 1017ms)
+ GET /dashboard/courses 200 in 733ms (compile: 301ms, proxy.ts: 195ms, render: 236ms)
+ GET /dashboard/courses/_banner_config_/edit 200 in 1667ms (compile: 977ms, proxy.ts: 522ms, render: 168ms)
+ GET /dashboard/courses/a1/edit 200 in 425ms (compile: 17ms, proxy.ts: 161ms, render: 248ms)
+Ô£ô Compiled in 1208ms
+ GET /dashboard/courses/a1/edit 200 in 1391ms (compile: 277ms, proxy.ts: 312ms, render: 802ms)
+ GET /dashboard/courses/a1/edit 200 in 529ms (compile: 34ms, proxy.ts: 242ms, render: 253ms)
+ GET /dashboard/courses/a1/edit 200 in 492ms (compile: 22ms, proxy.ts: 144ms, render: 326ms)
+ GET /dashboard/courses/a1/edit 200 in 509ms (compile: 23ms, proxy.ts: 150ms, render: 336ms)
+ GET /dashboard/courses/a1/edit 200 in 648ms (compile: 30ms, proxy.ts: 165ms, render: 453ms)
+ GET /dashboard/courses/a1/edit 200 in 524ms (compile: 47ms, proxy.ts: 161ms, render: 316ms)
+ GET /dashboard/courses/a1/edit 200 in 546ms (compile: 22ms, proxy.ts: 179ms, render: 345ms)
+ GET /dashboard/courses/a1/edit 200 in 603ms (compile: 24ms, proxy.ts: 170ms, render: 409ms)
+ GET /dashboard/courses/a1/edit 200 in 509ms (compile: 28ms, proxy.ts: 166ms, render: 315ms)
+ GET /dashboard/courses/a1/edit 200 in 625ms (compile: 21ms, proxy.ts: 163ms, render: 441ms)
+ GET / 200 in 964ms (compile: 171ms, proxy.ts: 167ms, render: 625ms)
+ GET /blog 200 in 1265ms (compile: 566ms, proxy.ts: 237ms, render: 462ms)
+ GET /courses 200 in 1095ms (compile: 385ms, proxy.ts: 131ms, render: 578ms)
+ GET /courses/bundle 200 in 2.6s (compile: 523ms, proxy.ts: 1244ms, generate-params: 20ms, render: 833ms)
+ GET /courses/bundle 200 in 592ms (compile: 41ms, proxy.ts: 230ms, generate-params: 163┬Ás, render: 321ms)
+ GET /admin 404 in 1589ms (compile: 393ms, proxy.ts: 782ms, render: 415ms)
+ GET /dashboard 200 in 1005ms (compile: 164ms, proxy.ts: 113ms, render: 728ms)
+ GET /dashboard/courses 200 in 979ms (compile: 156ms, proxy.ts: 171ms, render: 653ms)
+ GET /dashboard/courses/bundle/edit 200 in 439ms (compile: 19ms, proxy.ts: 245ms, render: 175ms)
+ POST /dashboard/courses/bundle/edit 200 in 1124ms (compile: 27ms, proxy.ts: 369ms, render: 728ms)
+ GET /dashboard/courses 200 in 492ms (compile: 8ms, proxy.ts: 164ms, render: 320ms)
+ GET /dashboard/courses 200 in 468ms (compile: 10ms, proxy.ts: 108ms, render: 350ms)
+ GET /contact 200 in 589ms (compile: 189ms, proxy.ts: 384ms, render: 16ms)
+ GET /courses/b1 200 in 178ms (compile: 19ms, proxy.ts: 148ms, generate-params: 9ms, render: 12ms)
+ GET /courses/a2 200 in 302ms (compile: 22ms, proxy.ts: 248ms, generate-params: 53┬Ás, render: 32ms)
+ GET /courses/a1 200 in 284ms (compile: 34ms, proxy.ts: 231ms, generate-params: 41┬Ás, render: 20ms)
+ GET /courses 200 in 950ms (compile: 8ms, proxy.ts: 215ms, render: 727ms)
+ GET /courses/bundle 200 in 2.5s (compile: 26ms, proxy.ts: 2.2s, generate-params: 11ms, render: 279ms)
+ GET /dashboard/courses/a1/edit 200 in 1514ms (compile: 24ms, proxy.ts: 804ms, render: 686ms)
+ POST /dashboard/courses/a1/edit 200 in 1338ms (compile: 30ms, proxy.ts: 520ms, render: 787ms)
+ GET /dashboard/courses 200 in 577ms (compile: 7ms, proxy.ts: 307ms, render: 263ms)
+ GET /dashboard/courses 200 in 445ms (compile: 7ms, proxy.ts: 103ms, render: 335ms)
+ GET /dashboard/courses/bundle/edit 200 in 371ms (compile: 18ms, proxy.ts: 170ms, render: 182ms)
+ POST /dashboard/courses/bundle/edit 200 in 988ms (compile: 27ms, proxy.ts: 206ms, render: 755ms)
+ GET /dashboard/courses 200 in 582ms (compile: 7ms, proxy.ts: 316ms, render: 259ms)
+ GET /dashboard/courses 200 in 330ms (compile: 5ms, proxy.ts: 105ms, render: 219ms)
+ GET /dashboard/courses/a2/edit 200 in 322ms (compile: 19ms, proxy.ts: 125ms, render: 179ms)
+ POST /dashboard/courses/a2/edit 200 in 1240ms (compile: 29ms, proxy.ts: 375ms, render: 835ms)
+ GET /dashboard/courses 200 in 2.8s (compile: 15ms, proxy.ts: 2.5s, render: 287ms)
+ GET /dashboard/courses 200 in 452ms (compile: 24ms, proxy.ts: 130ms, render: 299ms)
+ GET /dashboard/courses/a2/edit 200 in 3.6s (compile: 33ms, proxy.ts: 3.3s, render: 188ms)
+ GET /dashboard/courses/a2/edit 200 in 502ms (compile: 12ms, proxy.ts: 271ms, render: 219ms)
+ GET /dashboard/courses/a2/edit 200 in 330ms (compile: 17ms, proxy.ts: 127ms, render: 187ms)
+ POST /dashboard/courses/a2/edit 200 in 1076ms (compile: 20ms, proxy.ts: 286ms, render: 770ms)
+ GET /dashboard/courses 200 in 418ms (compile: 6ms, proxy.ts: 138ms, render: 274ms)
+ GET /dashboard/courses 200 in 371ms (compile: 17ms, proxy.ts: 104ms, render: 249ms)
+ GET /dashboard/courses/a1/edit 200 in 1257ms (compile: 18ms, proxy.ts: 1069ms, render: 170ms)
+ POST /dashboard/courses/a1/edit 200 in 1771ms (compile: 39ms, proxy.ts: 1206ms, render: 526ms)
+ GET /dashboard/courses 200 in 513ms (compile: 8ms, proxy.ts: 225ms, render: 280ms)
+ GET /dashboard/courses 200 in 369ms (compile: 18ms, proxy.ts: 119ms, render: 232ms)
+ GET /dashboard/courses/bundle/edit 200 in 1469ms (compile: 28ms, proxy.ts: 1274ms, render: 167ms)
+ POST /dashboard/courses/bundle/edit 200 in 2.1s (compile: 71ms, proxy.ts: 1295ms, render: 741ms)
+ GET /dashboard/courses 200 in 404ms (compile: 7ms, proxy.ts: 170ms, render: 227ms)
+ GET /dashboard/courses/b1/edit 200 in 3.4s (compile: 21ms, proxy.ts: 3.2s, render: 184ms)
+ POST /dashboard/courses/b1/edit 200 in 2.2s (compile: 31ms, proxy.ts: 1412ms, render: 806ms)
+ GET /dashboard/courses 200 in 441ms (compile: 15ms, proxy.ts: 173ms, render: 254ms)
+ GET /dashboard/courses 200 in 517ms (compile: 5ms, proxy.ts: 113ms, render: 399ms)
+ GET /dashboard/courses/_banner_config_/edit 200 in 1407ms (compile: 21ms, proxy.ts: 1218ms, render: 169ms)
+ GET / 200 in 514ms (compile: 13ms, proxy.ts: 171ms, render: 330ms)
+ GET /courses 200 in 324ms (compile: 6ms, proxy.ts: 110ms, render: 208ms)
+ GET /dashboard 200 in 734ms (compile: 34ms, proxy.ts: 185ms, render: 515ms)
+ GET /dashboard/courses 200 in 1452ms (compile: 15ms, proxy.ts: 1257ms, render: 179ms)
+ GET /dashboard/courses/_banner_config_/edit 200 in 1426ms (compile: 30ms, proxy.ts: 1214ms, render: 182ms)
+ GET /courses/a2 200 in 980ms (compile: 23ms, proxy.ts: 214ms, generate-params: 8ms, render: 742ms)
+Ô£ô Compiled in 159ms
+Ô£ô Compiled in 97ms
+ GET /dashboard/courses/_banner_config_/edit 200 in 1672ms (compile: 844ms, proxy.ts: 464ms, render: 364ms)
+ GET /courses/a2 200 in 1700ms (compile: 220ms, proxy.ts: 481ms, generate-params: 8ms, render: 999ms)
+ GET /courses/bundle 200 in 2.5s (compile: 22ms, proxy.ts: 1750ms, generate-params: 78┬Ás, render: 700ms)
+Ô£ô Compiled in 62ms
+ GET /dashboard/courses/_banner_config_/edit 200 in 568ms (compile: 89ms, proxy.ts: 350ms, render: 128ms)
+ GET /courses/bundle 200 in 572ms (compile: 17ms, proxy.ts: 247ms, generate-params: 8ms, render: 308ms)
+ GET /courses/a2 200 in 573ms (compile: 110ms, proxy.ts: 250ms, generate-params: 27┬Ás, render: 213ms)
+Ô£ô Compiled in 85ms
+ GET /dashboard/courses/_banner_config_/edit 200 in 488ms (compile: 14ms, proxy.ts: 180ms, render: 294ms)
+ GET /courses/a2 200 in 494ms (compile: 29ms, proxy.ts: 287ms, generate-params: 11ms, render: 178ms)
+ GET /courses/bundle 200 in 501ms (compile: 93ms, proxy.ts: 297ms, generate-params: 31┬Ás, render: 111ms)
+Ô£ô Compiled in 76ms
+ GET /dashboard/courses/_banner_config_/edit 200 in 845ms (compile: 375ms, proxy.ts: 159ms, render: 311ms)
+ GET /courses/bundle 200 in 867ms (compile: 173ms, proxy.ts: 174ms, generate-params: 8ms, render: 520ms)
+ GET /courses/a2 200 in 874ms (compile: 23ms, proxy.ts: 721ms, generate-params: 62┬Ás, render: 130ms)
+Ô£ô Compiled in 74ms
+ GET /dashboard/courses/_banner_config_/edit 200 in 490ms (compile: 18ms, proxy.ts: 176ms, render: 297ms)
+ GET /courses/bundle 200 in 516ms (compile: 25ms, proxy.ts: 306ms, generate-params: 9ms, render: 185ms)
+ GET /courses/a2 200 in 502ms (compile: 93ms, proxy.ts: 291ms, generate-params: 40┬Ás, render: 118ms)
+ GET /courses/bundle 200 in 603ms (compile: 39ms, proxy.ts: 461ms, generate-params: 9ms, render: 103ms)
+ GET /courses/bundle 200 in 223ms (compile: 12ms, proxy.ts: 119ms, generate-params: 27┬Ás, render: 92ms)
+ GET /courses/bundle 200 in 212ms (compile: 13ms, proxy.ts: 119ms, generate-params: 35┬Ás, render: 80ms)
+ GET /courses/bundle 200 in 207ms (compile: 9ms, proxy.ts: 113ms, generate-params: 45┬Ás, render: 85ms)
+ GET /courses/bundle 200 in 199ms (compile: 8ms, proxy.ts: 116ms, generate-params: 41┬Ás, render: 75ms)
+ GET /about 200 in 657ms (compile: 210ms, proxy.ts: 154ms, render: 293ms)
+ GET /courses 200 in 682ms (compile: 209ms, proxy.ts: 95ms, render: 378ms)
+ GET /contact 200 in 985ms (compile: 267ms, proxy.ts: 582ms, render: 135ms)
+ POST /contact 200 in 2.1s (compile: 14ms, proxy.ts: 441ms, render: 1607ms)
+ POST /contact 200 in 2.5s (compile: 7ms, proxy.ts: 1064ms, render: 1397ms)
+ GET /blog 200 in 1343ms (compile: 393ms, proxy.ts: 586ms, render: 363ms)
+ GET /contact 200 in 415ms (compile: 5ms, proxy.ts: 384ms, render: 26ms)
+ POST /contact 200 in 667ms (compile: 7ms, proxy.ts: 104ms, render: 556ms)
+ POST /contact 200 in 1017ms (compile: 13ms, proxy.ts: 596ms, render: 408ms)
+ POST /contact 200 in 659ms (compile: 11ms, proxy.ts: 292ms, render: 355ms)
+Ô£ô Compiled in 285ms
+ POST /contact 200 in 3.2s (compile: 677ms, proxy.ts: 1161ms, render: 1322ms)
+ GET /contact 200 in 4.3s (compile: 8ms, proxy.ts: 695ms, render: 3.6s)
+Ô£ô Compiled in 330ms
+Ô£ô Compiled in 633ms
+ GET /courses 200 in 349ms (compile: 9ms, proxy.ts: 245ms, render: 95ms)
+Ô¿» ReferenceError: village is not defined
+    at module evaluation (src\app\courses\[level]\page.tsx:6:2)
+    at module evaluation (C:\Users\Laith\f1\kafaaat\.next\dev\server\chunks\ssr\[root-of-the-server]__fe10f494._.js:666:47)
+  4 | import { getCourses, getCourseByLevel } from "@/app/actions";
+  5 | import CourseInquiryForm from "@/components/CourseInquiryForm";
+> 6 |  village
+    |  ^
+  7 | export async function generateStaticParams() {
+  8 |     const courses = await getCourses();
+  9 |     return courses.map((c) => ({ level: c.level.toLowerCase() }));
+Ô¿» ReferenceError: village is not defined
+    at module evaluation (src\app\courses\[level]\page.tsx:6:2)
+    at module evaluation (C:\Users\Laith\f1\kafaaat\.next\dev\server\chunks\ssr\[root-of-the-server]__fe10f494._.js:666:47)
+  4 | import { getCourses, getCourseByLevel } from "@/app/actions";
+  5 | import CourseInquiryForm from "@/components/CourseInquiryForm";
+> 6 |  village
+    |  ^
+  7 | export async function generateStaticParams() {
+  8 |     const courses = await getCourses();
+  9 |     return courses.map((c) => ({ level: c.level.toLowerCase() })); {
+  page: '/courses/bundle'
+}
+Ô¿» Failed to generate static paths for /courses/[level]:
+ReferenceError: village is not defined
+    at module evaluation (src\app\courses\[level]\page.tsx:6:2)
+    at module evaluation (C:\Users\Laith\f1\kafaaat\.next\dev\server\chunks\ssr\[root-of-the-server]__fe10f494._.js:666:47)
+  4 | import { getCourses, getCourseByLevel } from "@/app/actions";
+  5 | import CourseInquiryForm from "@/components/CourseInquiryForm";
+> 6 |  village
+    |  ^
+  7 | export async function generateStaticParams() {
+  8 |     const courses = await getCourses();
+  9 |     return courses.map((c) => ({ level: c.level.toLowerCase() })); {
+  type: 'ReferenceError'
+}
+ GET /contact 200 in 3.0s (compile: 16ms, proxy.ts: 513ms, render: 2.4s)
+ GET /dashboard/courses/_banner_config_/edit 200 in 3.0s (compile: 28ms, proxy.ts: 337ms, render: 2.6s)
+ GET /courses/bundle 500 in 3.4s (compile: 2.7s, proxy.ts: 497ms, generate-params: 7ms, render: 184ms)
+Ô¿» ReferenceError: village is not defined
+    at module evaluation (src\app\courses\[level]\page.tsx:6:2)
+    at module evaluation (C:\Users\Laith\f1\kafaaat\.next\dev\server\chunks\ssr\[root-of-the-server]__fe10f494._.js:666:47)
+  4 | import { getCourses, getCourseByLevel } from "@/app/actions";
+  5 | import CourseInquiryForm from "@/components/CourseInquiryForm";
+> 6 |  village
+    |  ^
+  7 | export async function generateStaticParams() {
+  8 |     const courses = await getCourses();
+  9 |     return courses.map((c) => ({ level: c.level.toLowerCase() })); {
+  type: 'ReferenceError',
+  page: '/courses/bundle'
+}
+ GET /courses/bundle 500 in 1556ms (compile: 646ms, proxy.ts: 899ms, render: 11ms)
+Ô£ô Compiled in 82ms
+ GET /contact 200 in 854ms (compile: 8ms, proxy.ts: 191ms, render: 655ms)
+ GET /dashboard/courses/_banner_config_/edit 200 in 871ms (compile: 292ms, proxy.ts: 272ms, render: 307ms)
+ GET /courses 200 in 868ms (compile: 10ms, proxy.ts: 253ms, render: 604ms)
+ GET /courses/bundle 200 in 3.8s (compile: 3.1s, proxy.ts: 223ms, generate-params: 2.8s, render: 550ms)
+Ô£ô Compiled in 94ms
+ÔÜá Fast Refresh had to perform a full reload due to a runtime error.
+Ô¿» ReferenceError: village is not defined
+    at FeedbackSection (src\components\FeedbackSection.tsx:13:2)
+  11 |   const [isSubmitting, setIsSubmitting] = useState(false);
+  12 |   const [isSubmitted, setIsSubmitted] = useState(false);
+> 13 |  village
+     |  ^
+  14 |
+  15 |   useEffect(() => {
+  16 |     const generateCaptcha = () => { {
+  digest: '544392005'
+}
+ GET /contact 500 in 2.1s (compile: 181ms, proxy.ts: 286ms, render: 1668ms)
+ÔÜá Fast Refresh had to perform a full reload due to a runtime error.
+ÔÜá Fast Refresh had to perform a full reload due to a runtime error.
+Ô£ô Compiled in 80ms
+ GET /contact 200 in 1281ms (compile: 168ms, proxy.ts: 257ms, render: 855ms)
+ POST /contact 200 in 911ms (compile: 8ms, proxy.ts: 428ms, render: 474ms)
+ POST /contact 200 in 1167ms (compile: 7ms, proxy.ts: 624ms, render: 536ms)
+ POST /contact 200 in 2.6s (compile: 7ms, proxy.ts: 1477ms, render: 1162ms)
+Ô£ô Compiled in 243ms
+Ô£ô Compiled in 93ms
+ GET /contact 200 in 2.9s (compile: 181ms, proxy.ts: 1971ms, render: 775ms)
+ POST /contact 200 in 548ms (compile: 11ms, proxy.ts: 234ms, render: 304ms)
+ GET /dashboard/feedback 200 in 1198ms (compile: 431ms, proxy.ts: 327ms, render: 439ms)
+ GET /dashboard/testimonials 200 in 489ms (compile: 160ms, proxy.ts: 145ms, render: 184ms)
+ GET /dashboard/inquiries 200 in 620ms (compile: 174ms, proxy.ts: 235ms, render: 210ms)
+ GET /dashboard/feedback 200 in 374ms (compile: 12ms, proxy.ts: 135ms, render: 227ms)
+Ô£ô Compiled in 67ms
+ GET /dashboard/feedback 200 in 724ms (compile: 10ms, proxy.ts: 379ms, render: 334ms)
+ GET /contact 200 in 703ms (compile: 106ms, proxy.ts: 364ms, render: 234ms)
+ GET /courses/bundle 200 in 960ms (compile: 87ms, proxy.ts: 468ms, generate-params: 10ms, render: 405ms)
+Ô£ô Compiled in 118ms
+ GET /contact 200 in 526ms (compile: 123ms, proxy.ts: 188ms, render: 214ms)
+ GET /dashboard/feedback 200 in 551ms (compile: 11ms, proxy.ts: 209ms, render: 331ms)
+ GET /courses/bundle 200 in 539ms (compile: 23ms, proxy.ts: 404ms, generate-params: 10ms, render: 113ms)
+Ô£ô Compiled in 78ms
+ GET /dashboard/feedback 200 in 1844ms (compile: 413ms, proxy.ts: 536ms, render: 896ms)
+ GET /contact 200 in 1823ms (compile: 14ms, proxy.ts: 1530ms, render: 279ms)
+ GET /courses/bundle 200 in 1844ms (compile: 145ms, proxy.ts: 1541ms, generate-params: 14ms, render: 158ms)
+Ô£ô Compiled in 71ms
+ GET /contact 200 in 210ms (compile: 5ms, proxy.ts: 161ms, render: 44ms)
+ GET /dashboard/feedback 200 in 450ms (compile: 7ms, proxy.ts: 247ms, render: 196ms)
+ GET /courses/bundle 200 in 442ms (compile: 20ms, proxy.ts: 332ms, generate-params: 10ms, render: 90ms)
+Ô£ô Compiled in 97ms
+ GET /contact 200 in 3.8s (compile: 11ms, proxy.ts: 3.6s, render: 167ms)
+ GET /courses/bundle 200 in 3.8s (compile: 17ms, proxy.ts: 3.5s, generate-params: 6ms, render: 253ms)
+ GET /dashboard/feedback 200 in 3.8s (compile: 9ms, proxy.ts: 3.7s, render: 96ms)
+ GET /dashboard/feedback 200 in 2.3s (compile: 13ms, proxy.ts: 1434ms, render: 806ms)
+ GET /dashboard/inquiries 200 in 1873ms (compile: 164ms, proxy.ts: 673ms, render: 1036ms)
+ GET /dashboard/testimonials 200 in 523ms (compile: 160ms, proxy.ts: 117ms, render: 246ms)
+Error toggling testimonial approval: {
+  code: 'PGRST204',
+  details: null,
+  hint: null,
+  message: "Could not find the 'is_approved' column of 'testimonials' in the schema cache"
+}
+ POST /dashboard/testimonials 200 in 396ms (compile: 21ms, proxy.ts: 187ms, render: 189ms)
+Ô£ô Compiled in 71ms
+Ô£ô Compiled in 95ms
+ POST /dashboard/testimonials 200 in 3.3s (compile: 9ms, proxy.ts: 3.0s, render: 278ms)
+ GET /dashboard/testimonials 200 in 5.5s (compile: 194ms, proxy.ts: 1783ms, render: 3.5s)
+Error toggling testimonial approval: {
+  code: 'PGRST204',
+  details: null,
+  hint: null,
+  message: "Could not find the 'is_approved' column of 'testimonials' in the schema cache"
+}
+Error toggling testimonial approval: {
+  code: 'PGRST204',
+  details: null,
+  hint: null,
+  message: "Could not find the 'is_approved' column of 'testimonials' in the schema cache"
+}
+ POST /dashboard/testimonials 200 in 379ms (compile: 7ms, proxy.ts: 246ms, render: 125ms)
+Error toggling testimonial approval: {
+  code: 'PGRST204',
+  details: null,
+  hint: null,
+  message: "Could not find the 'is_approved' column of 'testimonials' in the schema cache"
+}
+ POST /dashboard/testimonials 200 in 200ms (compile: 5ms, proxy.ts: 95ms, render: 100ms)
+ GET /dashboard/courses 200 in 661ms (compile: 167ms, proxy.ts: 165ms, render: 329ms)
+ GET /dashboard/feedback 200 in 270ms (compile: 8ms, proxy.ts: 94ms, render: 168ms)
+ GET /dashboard/inquiries 200 in 272ms (compile: 9ms, proxy.ts: 94ms, render: 168ms)
+ GET /dashboard/testimonials 200 in 269ms (compile: 11ms, proxy.ts: 108ms, render: 150ms)
+Ô£ô Compiled in 132ms
+ GET /courses/bundle 200 in 357ms (compile: 16ms, proxy.ts: 244ms, generate-params: 8ms, render: 98ms)
+ GET /dashboard/testimonials 200 in 2.4s (compile: 462ms, proxy.ts: 543ms, render: 1420ms)
+ GET /courses/bundle 200 in 2.1s (compile: 1666ms, proxy.ts: 207ms, generate-params: 58┬Ás, render: 218ms)
+ GET /dashboard/testimonials 200 in 272ms (compile: 8ms, proxy.ts: 189ms, render: 75ms)
+Ô£ô Compiled in 72ms
+ GET /dashboard/testimonials 200 in 679ms (compile: 20ms, proxy.ts: 401ms, render: 257ms)
+ GET /courses/bundle 200 in 688ms (compile: 39ms, proxy.ts: 197ms, generate-params: 20ms, render: 452ms)
+ GET /dashboard/testimonials 200 in 2.1s (compile: 6ms, proxy.ts: 1215ms, render: 902ms)
+Error toggling testimonial approval: {
+  code: 'PGRST204',
+  details: null,
+  hint: null,
+  message: "Could not find the 'is_approved' column of 'testimonials' in the schema cache"
+}
+ POST /dashboard/testimonials 200 in 285ms (compile: 7ms, proxy.ts: 123ms, render: 155ms)
+Error toggling testimonial approval: {
+  code: 'PGRST204',
+  details: null,
+  hint: null,
+  message: "Could not find the 'is_approved' column of 'testimonials' in the schema cache"
+}
+ POST /dashboard/testimonials 200 in 226ms (compile: 6ms, proxy.ts: 103ms, render: 117ms)
+ GET /contact 200 in 288ms (compile: 19ms, proxy.ts: 192ms, render: 76ms)
+ GET /contact 200 in 292ms (compile: 7ms, proxy.ts: 194ms, render: 91ms)
+ GET /contact 200 in 182ms (compile: 7ms, proxy.ts: 110ms, render: 65ms)
+Failed to fetch testimonials: {
+  code: '42703',
+  details: null,
+  hint: null,
+  message: 'column testimonials.is_approved does not exist'
+}
+ GET / 200 in 768ms (compile: 199ms, proxy.ts: 109ms, render: 460ms)
+Failed to fetch testimonials: {
+  code: '42703',
+  details: null,
+  hint: null,
+  message: 'column testimonials.is_approved does not exist'
+}
+ GET / 200 in 866ms (compile: 12ms, proxy.ts: 238ms, render: 616ms)
+Ô£ô Compiled in 160ms
+ GET /dashboard/testimonials 200 in 3.5s (compile: 191ms, proxy.ts: 2.4s, render: 859ms)
+Failed to fetch testimonials: {
+  code: '42703',
+  details: null,
+  hint: null,
+  message: 'column testimonials.is_approved does not exist'
+}
+ GET /dashboard/testimonials 200 in 1313ms (compile: 60ms, proxy.ts: 977ms, render: 276ms)
+ GET / 200 in 4.2s (compile: 332ms, proxy.ts: 2.8s, render: 975ms)
+ GET /courses/bundle 200 in 4.5s (compile: 54ms, proxy.ts: 3.6s, generate-params: 16ms, render: 878ms)
+Failed to fetch testimonials: {
+  code: '42703',
+  details: null,
+  hint: null,
+  message: 'column testimonials.is_approved does not exist'
+}
+ GET / 200 in 2.1s (compile: 48ms, proxy.ts: 1020ms, render: 1079ms)
+ GET /courses/bundle 200 in 2.5s (compile: 11ms, proxy.ts: 1767ms, generate-params: 640┬Ás, render: 710ms)
+Ô£ô Compiled in 108ms
+ GET /dashboard/testimonials 200 in 2.8s (compile: 156ms, proxy.ts: 1120ms, render: 1497ms)
+ GET /courses/bundle 200 in 2.8s (compile: 75ms, proxy.ts: 2.4s, generate-params: 38ms, render: 305ms)
+Error fetching testimonials for home: {
+  code: '42703',
+  details: null,
+  hint: null,
+  message: 'column testimonials.is_approved does not exist'
+}
+Error fetching feedback for home: {
+  code: '42703',
+  details: null,
+  hint: null,
+  message: 'column feedback.is_approved does not exist'
+}
+Ô¿» ReferenceError: testimonials is not defined
+    at HomePage (src\app\page.tsx:354:46)
+  352 |
+  353 |           {/* Carousel */}
+> 354 |           <TestimonialCarousel testimonials={testimonials} />
+      |                                              ^
+  355 |         </div>
+  356 |       </section>
+  357 | {
+  digest: '1341875664'
+}
+ GET / 200 in 3.7s (compile: 775ms, proxy.ts: 1178ms, render: 1793ms)
+Ô£ô Compiled in 65ms
+ GET /dashboard/testimonials 200 in 3.0s (compile: 12ms, proxy.ts: 2.9s, render: 160ms)
+ GET /courses/bundle 200 in 3.1s (compile: 101ms, proxy.ts: 2.9s, generate-params: 6ms, render: 78ms)
+Error fetching testimonials for home: {
+  code: '42703',
+  details: null,
+  hint: null,
+  message: 'column testimonials.is_approved does not exist'
+}
+Error fetching feedback for home: {
+  code: '42703',
+  details: null,
+  hint: null,
+  message: 'column feedback.is_approved does not exist'
+}
+ GET / 200 in 7.1s (compile: 406ms, proxy.ts: 2.1s, render: 4.7s)
+Error fetching testimonials for home: {
+  code: '42703',
+  details: null,
+  hint: null,
+  message: 'column testimonials.is_approved does not exist'
+}
+Error fetching feedback for home: {
+  code: '42703',
+  details: null,
+  hint: null,
+  message: 'column feedback.is_approved does not exist'
+}
+ GET / 200 in 1026ms (compile: 19ms, proxy.ts: 213ms, render: 794ms)
+ GET /dashboard/testimonials 200 in 526ms (compile: 13ms, proxy.ts: 176ms, render: 338ms)
+ GET /dashboard 200 in 892ms (compile: 177ms, proxy.ts: 167ms, render: 549ms)
+ GET /dashboard/testimonials 200 in 287ms (compile: 5ms, proxy.ts: 118ms, render: 164ms)
+Error toggling testimonial approval: {
+  code: 'PGRST204',
+  details: null,
+  hint: null,
+  message: "Could not find the 'is_approved' column of 'testimonials' in the schema cache"
+}
+ POST /dashboard/testimonials 200 in 300ms (compile: 11ms, proxy.ts: 131ms, render: 158ms)
+ GET /dashboard/inquiries 200 in 441ms (compile: 6ms, proxy.ts: 184ms, render: 251ms)
+ GET /dashboard 200 in 400ms (compile: 5ms, proxy.ts: 98ms, render: 297ms)
+ GET /dashboard/feedback 200 in 545ms (compile: 181ms, proxy.ts: 100ms, render: 263ms)
+Ô£ô Compiled in 73ms
+ GET /dashboard/feedback 200 in 787ms (compile: 5ms, proxy.ts: 178ms, render: 604ms)
+ GET /courses/bundle 200 in 796ms (compile: 434ms, proxy.ts: 271ms, generate-params: 8ms, render: 91ms)
+Error fetching testimonials for home: {
+  code: '42703',
+  details: null,
+  hint: null,
+  message: 'column testimonials.is_approved does not exist'
+}
+Error fetching feedback for home: {
+  code: '42703',
+  details: null,
+  hint: null,
+  message: 'column feedback.is_approved does not exist'
+}
+ GET / 200 in 983ms (compile: 202ms, proxy.ts: 252ms, render: 530ms)
+Ô£ô Compiled in 61ms
+ GET /dashboard/testimonials 200 in 573ms (compile: 155ms, proxy.ts: 190ms, render: 229ms)
+ GET /dashboard/testimonials 200 in 616ms (compile: 9ms, proxy.ts: 168ms, render: 438ms)
+Error toggling testimonial approval: {
+  code: 'PGRST204',
+  details: null,
+  hint: null,
+  message: "Could not find the 'is_approved' column of 'testimonials' in the schema cache"
+}
+ POST /dashboard/testimonials 200 in 347ms (compile: 8ms, proxy.ts: 192ms, render: 147ms)
+Error toggling testimonial approval: {
+  code: 'PGRST204',
+  details: null,
+  hint: null,
+  message: "Could not find the 'is_approved' column of 'testimonials' in the schema cache"
+}
+ POST /dashboard/testimonials 200 in 376ms (compile: 6ms, proxy.ts: 144ms, render: 225ms)
+Error fetching testimonials for home: {
+  code: '42703',
+  details: null,
+  hint: null,
+  message: 'column testimonials.is_approved does not exist'
+}
+Error fetching feedback for home: {
+  code: '42703',
+  details: null,
+  hint: null,
+  message: 'column feedback.is_approved does not exist'
+}
+ GET / 200 in 1050ms (compile: 12ms, proxy.ts: 201ms, render: 838ms)
+Ô£ô Compiled in 179ms
+ GET /courses/bundle 200 in 3.0s (compile: 2.3s, proxy.ts: 232ms, generate-params: 22ms, render: 462ms)
+ GET /courses/bundle 200 in 313ms (compile: 30ms, proxy.ts: 177ms, generate-params: 34┬Ás, render: 106ms)
+ GET / 200 in 566ms (compile: 45ms, proxy.ts: 267ms, render: 254ms)
+ GET / 200 in 3.0s (compile: 923ms, proxy.ts: 236ms, render: 1880ms)
+Ô£ô Compiled in 255ms
+ GET /courses/bundle 200 in 1366ms (compile: 45ms, proxy.ts: 645ms, generate-params: 12ms, render: 675ms)
+ GET /courses/bundle 200 in 614ms (compile: 58ms, proxy.ts: 366ms, generate-params: 93┬Ás, render: 189ms)
+ GET / 200 in 1425ms (compile: 228ms, proxy.ts: 231ms, render: 965ms)
+ GET / 200 in 768ms (compile: 16ms, proxy.ts: 216ms, render: 536ms)
+ GET / 200 in 1577ms (compile: 9ms, proxy.ts: 464ms, render: 1104ms)
+ GET / 200 in 677ms (compile: 8ms, proxy.ts: 514ms, render: 154ms)
+ GET / 200 in 460ms (compile: 17ms, proxy.ts: 115ms, render: 329ms)
+ GET / 200 in 733ms (compile: 12ms, proxy.ts: 391ms, render: 330ms)
+ GET / 200 in 608ms (compile: 25ms, proxy.ts: 152ms, render: 432ms)
+ GET /dashboard 200 in 648ms (compile: 6ms, proxy.ts: 100ms, render: 542ms)
+ GET /dashboard/inquiries 200 in 344ms (compile: 27ms, proxy.ts: 110ms, render: 206ms)
+ GET /dashboard/testimonials 200 in 508ms (compile: 144ms, proxy.ts: 105ms, render: 259ms)
+Error toggling testimonial approval: {
+  code: 'PGRST204',
+  details: null,
+  hint: null,
+  message: "Could not find the 'is_approved' column of 'testimonials' in the schema cache"
+}
+ POST /dashboard/testimonials 200 in 410ms (compile: 7ms, proxy.ts: 251ms, render: 152ms)
+Error toggling testimonial approval: {
+  code: 'PGRST204',
+  details: null,
+  hint: null,
+  message: "Could not find the 'is_approved' column of 'testimonials' in the schema cache"
+}
+ POST /dashboard/testimonials 200 in 278ms (compile: 6ms, proxy.ts: 161ms, render: 112ms)
+Error toggling testimonial approval: {
+  code: 'PGRST204',
+  details: null,
+  hint: null,
+  message: "Could not find the 'is_approved' column of 'testimonials' in the schema cache"
+}
+ POST /dashboard/testimonials 200 in 336ms (compile: 7ms, proxy.ts: 207ms, render: 122ms)
+Error toggling testimonial approval: {
+  code: 'PGRST204',
+  details: null,
+  hint: null,
+  message: "Could not find the 'is_approved' column of 'testimonials' in the schema cache"
+}
+ POST /dashboard/testimonials 200 in 241ms (compile: 6ms, proxy.ts: 102ms, render: 134ms)
+ GET /dashboard/testimonials 200 in 684ms (compile: 13ms, proxy.ts: 208ms, render: 462ms)
+ POST /dashboard/testimonials 200 in 462ms (compile: 7ms, proxy.ts: 111ms, render: 344ms)
+ POST /dashboard/testimonials 200 in 496ms (compile: 5ms, proxy.ts: 125ms, render: 366ms)
+ POST /dashboard/testimonials 200 in 496ms (compile: 7ms, proxy.ts: 110ms, render: 379ms)
+ GET / 200 in 727ms (compile: 7ms, proxy.ts: 178ms, render: 542ms)
+ POST /dashboard/testimonials 200 in 623ms (compile: 7ms, proxy.ts: 167ms, render: 449ms)
+ POST /dashboard/testimonials 200 in 548ms (compile: 11ms, proxy.ts: 117ms, render: 420ms)
+ POST /dashboard/testimonials 200 in 498ms (compile: 6ms, proxy.ts: 121ms, render: 370ms)
+ POST /dashboard/testimonials 200 in 563ms (compile: 13ms, proxy.ts: 135ms, render: 414ms)
+ POST /dashboard/testimonials 200 in 871ms (compile: 6ms, proxy.ts: 118ms, render: 747ms)
+ GET / 200 in 781ms (compile: 7ms, proxy.ts: 247ms, render: 527ms)
+ POST /dashboard/testimonials 200 in 583ms (compile: 7ms, proxy.ts: 173ms, render: 403ms)
+ POST /dashboard/testimonials 200 in 646ms (compile: 26ms, proxy.ts: 128ms, render: 491ms)
+ POST /dashboard/testimonials 200 in 446ms (compile: 7ms, proxy.ts: 102ms, render: 336ms)
+ POST /dashboard/testimonials 200 in 397ms (compile: 9ms, proxy.ts: 104ms, render: 285ms)
+Ô£ô Compiled in 150ms
+ GET /courses/bundle 200 in 1752ms (compile: 24ms, proxy.ts: 279ms, generate-params: 11ms, render: 1448ms)
+ GET /dashboard/testimonials 200 in 1757ms (compile: 659ms, proxy.ts: 420ms, render: 678ms)
+ GET /courses/bundle 200 in 1372ms (compile: 24ms, proxy.ts: 874ms, generate-params: 126┬Ás, render: 475ms)
+ GET /dashboard/testimonials 200 in 526ms (compile: 15ms, proxy.ts: 154ms, render: 357ms)
+ GET / 200 in 1755ms (compile: 254ms, proxy.ts: 384ms, render: 1116ms)
+ GET / 200 in 609ms (compile: 69ms, proxy.ts: 220ms, render: 321ms)
+Ô£ô Compiled in 117ms
+ GET /dashboard/testimonials 200 in 454ms (compile: 7ms, proxy.ts: 360ms, render: 87ms)
+ GET /courses/bundle 200 in 724ms (compile: 17ms, proxy.ts: 457ms, generate-params: 7ms, render: 250ms)
+ GET / 200 in 722ms (compile: 8ms, proxy.ts: 562ms, render: 152ms)
+Ô£ô Compiled in 150ms
+ GET /dashboard/testimonials 200 in 528ms (compile: 29ms, proxy.ts: 278ms, render: 221ms)
+ GET /courses/bundle 200 in 530ms (compile: 120ms, proxy.ts: 275ms, generate-params: 7ms, render: 134ms)
+ GET / 200 in 522ms (compile: 8ms, proxy.ts: 160ms, render: 354ms)
+Ô£ô Compiled in 139ms
+ GET /dashboard/testimonials 200 in 3.1s (compile: 1759ms, proxy.ts: 933ms, render: 428ms)
+ GET /courses/bundle 200 in 3.1s (compile: 388ms, proxy.ts: 549ms, generate-params: 8ms, render: 2.2s)
+ GET /courses/bundle 200 in 1899ms (compile: 100ms, proxy.ts: 1637ms, generate-params: 28┬Ás, render: 162ms)
+ GET /dashboard/testimonials 200 in 289ms (compile: 11ms, proxy.ts: 191ms, render: 88ms)
+ GET / 200 in 3.1s (compile: 192ms, proxy.ts: 547ms, render: 2.4s)
+ GET / 200 in 2.2s (compile: 1413ms, proxy.ts: 551ms, render: 267ms)
+Ô£ô Compiled in 85ms
+ GET /dashboard/testimonials 200 in 618ms (compile: 9ms, proxy.ts: 287ms, render: 322ms)
+ GET /courses/bundle 200 in 604ms (compile: 218ms, proxy.ts: 269ms, generate-params: 8ms, render: 117ms)
+ GET / 200 in 615ms (compile: 77ms, proxy.ts: 274ms, render: 263ms)
+ GET /contact 200 in 302ms (compile: 19ms, proxy.ts: 244ms, render: 38ms)
+ POST /contact 200 in 387ms (compile: 28ms, proxy.ts: 131ms, render: 229ms)
+ POST /contact 200 in 297ms (compile: 7ms, proxy.ts: 128ms, render: 162ms)
+ POST /contact 200 in 419ms (compile: 26ms, proxy.ts: 178ms, render: 214ms)
+ GET /dashboard/testimonials 200 in 629ms (compile: 8ms, proxy.ts: 157ms, render: 464ms)
+ GET /dashboard/feedback 200 in 298ms (compile: 14ms, proxy.ts: 106ms, render: 178ms)
+ GET /dashboard/inquiries 200 in 732ms (compile: 158ms, proxy.ts: 103ms, render: 471ms)
+Ô£ô Compiled in 239ms
+ GET /dashboard/inquiries 200 in 906ms (compile: 218ms, proxy.ts: 157ms, render: 531ms)
+ POST /contact 200 in 570ms (compile: 11ms, proxy.ts: 209ms, render: 350ms)
+ GET /dashboard/inquiries 200 in 521ms (compile: 13ms, proxy.ts: 160ms, render: 349ms)
+ GET /dashboard/inquiries 200 in 496ms (compile: 9ms, proxy.ts: 106ms, render: 381ms)
+Ô£ô Compiled in 267ms
+ GET /dashboard/inquiries 200 in 3.6s (compile: 273ms, proxy.ts: 253ms, render: 3.1s)
+ GET /contact 200 in 3.5s (compile: 1499ms, proxy.ts: 844ms, render: 1169ms)
+ GET /dashboard/inquiries 200 in 2.9s (compile: 58ms, proxy.ts: 2.1s, render: 774ms)
+ GET /courses/bundle 200 in 3.8s (compile: 982ms, proxy.ts: 195ms, generate-params: 8ms, render: 2.6s)
+ GET /contact 200 in 825ms (compile: 18ms, proxy.ts: 217ms, render: 590ms)
+ GET /contact 200 in 643ms (compile: 113ms, proxy.ts: 162ms, render: 368ms)
+ GET /dashboard/inquiries 200 in 826ms (compile: 40ms, proxy.ts: 228ms, render: 558ms)
+ GET /courses/bundle 200 in 1238ms (compile: 111ms, proxy.ts: 374ms, generate-params: 8ms, render: 753ms)
+ GET /courses/bundle 200 in 739ms (compile: 33ms, proxy.ts: 195ms, generate-params: 34┬Ás, render: 511ms)
+ GET /dashboard/inquiries 200 in 527ms (compile: 10ms, proxy.ts: 104ms, render: 413ms)
+ GET /contact 200 in 529ms (compile: 12ms, proxy.ts: 211ms, render: 305ms)
+ GET /contact 200 in 267ms (compile: 77ms, proxy.ts: 116ms, render: 74ms)
+ GET /dashboard/inquiries 200 in 343ms (compile: 9ms, proxy.ts: 187ms, render: 147ms)
+ GET /courses/bundle 200 in 460ms (compile: 85ms, proxy.ts: 136ms, generate-params: 45┬Ás, render: 238ms)
+ GET /contact 200 in 509ms (compile: 7ms, proxy.ts: 130ms, render: 373ms)
+ GET /dashboard/inquiries 200 in 679ms (compile: 42ms, proxy.ts: 184ms, render: 453ms)
+ GET /courses/bundle 200 in 775ms (compile: 9ms, proxy.ts: 201ms, generate-params: 35┬Ás, render: 564ms)
+ GET /contact 200 in 705ms (compile: 11ms, proxy.ts: 148ms, render: 546ms)
+ GET /courses/bundle 200 in 964ms (compile: 11ms, proxy.ts: 160ms, generate-params: 32┬Ás, render: 793ms)
+ GET /dashboard/inquiries 200 in 1091ms (compile: 67ms, proxy.ts: 105ms, render: 919ms)
+ GET /contact 200 in 1122ms (compile: 34ms, proxy.ts: 205ms, render: 883ms)
+ GET /dashboard/inquiries 200 in 1361ms (compile: 69ms, proxy.ts: 133ms, render: 1160ms)
+ GET /courses/bundle 200 in 1536ms (compile: 27ms, proxy.ts: 183ms, generate-params: 7ms, render: 1326ms)
+ GET /contact 200 in 1373ms (compile: 32ms, proxy.ts: 329ms, render: 1012ms)
+ GET /courses/bundle 200 in 1686ms (compile: 29ms, proxy.ts: 306ms, generate-params: 56┬Ás, render: 1350ms)
+ GET /dashboard/inquiries 200 in 1434ms (compile: 106ms, proxy.ts: 215ms, render: 1113ms)
+ GET /contact 200 in 1198ms (compile: 29ms, proxy.ts: 298ms, render: 872ms)
+ GET /dashboard/inquiries 200 in 1126ms (compile: 97ms, proxy.ts: 170ms, render: 858ms)
+ GET /courses/bundle 200 in 1467ms (compile: 41ms, proxy.ts: 331ms, generate-params: 61┬Ás, render: 1095ms)
+ GET /contact 200 in 908ms (compile: 31ms, proxy.ts: 410ms, render: 467ms)
+ GET /dashboard/inquiries 200 in 781ms (compile: 74ms, proxy.ts: 238ms, render: 469ms)
+ GET /courses/bundle 200 in 1173ms (compile: 56ms, proxy.ts: 360ms, generate-params: 112┬Ás, render: 756ms)
+ GET /contact 200 in 670ms (compile: 10ms, proxy.ts: 139ms, render: 522ms)
+ GET /courses/bundle 200 in 918ms (compile: 50ms, proxy.ts: 226ms, generate-params: 9ms, render: 642ms)
+ GET /dashboard/inquiries 200 in 822ms (compile: 7ms, proxy.ts: 184ms, render: 632ms)
+ GET /contact 200 in 669ms (compile: 11ms, proxy.ts: 134ms, render: 525ms)
+ GET /contact 200 in 501ms (compile: 118ms, proxy.ts: 129ms, render: 254ms)
+ GET /dashboard/inquiries 200 in 594ms (compile: 12ms, proxy.ts: 202ms, render: 379ms)
+ GET /courses/bundle 200 in 828ms (compile: 73ms, proxy.ts: 198ms, generate-params: 43┬Ás, render: 558ms)
+ GET /dashboard/inquiries 200 in 322ms (compile: 9ms, proxy.ts: 130ms, render: 182ms)
+ GET /courses/bundle 200 in 511ms (compile: 16ms, proxy.ts: 222ms, generate-params: 30┬Ás, render: 272ms)
+ GET /courses/bundle 200 in 227ms (compile: 24ms, proxy.ts: 118ms, generate-params: 34┬Ás, render: 85ms)
+Ô£ô Compiled in 81ms
+ GET /contact 200 in 784ms (compile: 456ms, proxy.ts: 256ms, render: 72ms)
+ GET /dashboard/inquiries 200 in 814ms (compile: 242ms, proxy.ts: 282ms, render: 290ms)
+ GET /courses/bundle 200 in 813ms (compile: 15ms, proxy.ts: 183ms, generate-params: 7ms, render: 615ms)
+Ô£ô Compiled in 220ms
+ GET /contact 200 in 2.4s (compile: 741ms, proxy.ts: 163ms, render: 1479ms)
+ GET /dashboard/inquiries 200 in 2.4s (compile: 191ms, proxy.ts: 165ms, render: 2.1s)
+ GET /contact 200 in 1310ms (compile: 60ms, proxy.ts: 851ms, render: 398ms)
+ GET /dashboard/inquiries 200 in 1599ms (compile: 29ms, proxy.ts: 996ms, render: 574ms)
+ GET /courses/bundle 200 in 2.8s (compile: 461ms, proxy.ts: 1269ms, generate-params: 14ms, render: 1023ms)
+ GET /contact 200 in 604ms (compile: 11ms, proxy.ts: 122ms, render: 471ms)
+ GET /courses/bundle 200 in 793ms (compile: 14ms, proxy.ts: 200ms, generate-params: 57┬Ás, render: 580ms)
+ GET /dashboard/inquiries 200 in 708ms (compile: 15ms, proxy.ts: 192ms, render: 501ms)
+ GET /contact 200 in 534ms (compile: 10ms, proxy.ts: 132ms, render: 391ms)
+ GET /dashboard/inquiries 200 in 677ms (compile: 15ms, proxy.ts: 179ms, render: 483ms)
+ GET /contact 200 in 605ms (compile: 15ms, proxy.ts: 189ms, render: 401ms)
+ GET /courses/bundle 200 in 865ms (compile: 82ms, proxy.ts: 206ms, generate-params: 54┬Ás, render: 577ms)
+ GET /contact 200 in 623ms (compile: 92ms, proxy.ts: 105ms, render: 425ms)
+ GET /dashboard/inquiries 200 in 873ms (compile: 15ms, proxy.ts: 171ms, render: 687ms)
+ GET /courses/bundle 200 in 959ms (compile: 37ms, proxy.ts: 149ms, generate-params: 49┬Ás, render: 773ms)
+ GET /contact 200 in 799ms (compile: 105ms, proxy.ts: 122ms, render: 571ms)
+ GET /dashboard/inquiries 200 in 936ms (compile: 14ms, proxy.ts: 182ms, render: 740ms)
+ GET /courses/bundle 200 in 1274ms (compile: 37ms, proxy.ts: 165ms, generate-params: 6ms, render: 1072ms)
+ GET /contact 200 in 1192ms (compile: 80ms, proxy.ts: 111ms, render: 1001ms)
+ GET /dashboard/inquiries 200 in 1419ms (compile: 12ms, proxy.ts: 188ms, render: 1219ms)
+ GET /courses/bundle 200 in 1539ms (compile: 34ms, proxy.ts: 182ms, generate-params: 35┬Ás, render: 1323ms)
+ GET /contact 200 in 1391ms (compile: 78ms, proxy.ts: 197ms, render: 1115ms)
+ GET /dashboard/inquiries 200 in 2.2s (compile: 20ms, proxy.ts: 291ms, render: 1851ms)
+ GET /courses/bundle 200 in 2.5s (compile: 35ms, proxy.ts: 251ms, generate-params: 80┬Ás, render: 2.2s)
+ GET /contact 200 in 2.2s (compile: 25ms, proxy.ts: 405ms, render: 1726ms)
+ GET /dashboard/inquiries 200 in 2.2s (compile: 126ms, proxy.ts: 112ms, render: 1938ms)
+ GET /courses/bundle 200 in 2.5s (compile: 47ms, proxy.ts: 389ms, generate-params: 53┬Ás, render: 2.1s)
+ GET /dashboard/inquiries 200 in 1778ms (compile: 26ms, proxy.ts: 163ms, render: 1589ms)
+ GET /contact 200 in 1628ms (compile: 22ms, proxy.ts: 354ms, render: 1253ms)
+ GET /courses/bundle 200 in 1921ms (compile: 193ms, proxy.ts: 269ms, generate-params: 11ms, render: 1459ms)
+ GET /dashboard/inquiries 200 in 1139ms (compile: 213ms, proxy.ts: 453ms, render: 473ms)
+ GET /contact 200 in 683ms (compile: 110ms, proxy.ts: 361ms, render: 212ms)
+ GET /courses/bundle 200 in 1585ms (compile: 403ms, proxy.ts: 703ms, generate-params: 36┬Ás, render: 479ms)
+ GET /contact 200 in 1016ms (compile: 99ms, proxy.ts: 163ms, render: 754ms)
+ GET /dashboard/inquiries 200 in 1203ms (compile: 10ms, proxy.ts: 162ms, render: 1031ms)
+ GET /courses/bundle 200 in 1296ms (compile: 36ms, proxy.ts: 126ms, generate-params: 58┬Ás, render: 1134ms)
+ GET /contact 200 in 1096ms (compile: 82ms, proxy.ts: 208ms, render: 806ms)
+ GET /dashboard/inquiries 200 in 1155ms (compile: 18ms, proxy.ts: 254ms, render: 883ms)
+ GET /courses/bundle 200 in 1259ms (compile: 47ms, proxy.ts: 149ms, generate-params: 12ms, render: 1063ms)
+ GET /dashboard/inquiries 200 in 653ms (compile: 19ms, proxy.ts: 247ms, render: 387ms)
+ GET /courses/bundle 200 in 965ms (compile: 30ms, proxy.ts: 362ms, generate-params: 57┬Ás, render: 573ms)
+ GET /courses/bundle 200 in 464ms (compile: 52ms, proxy.ts: 235ms, generate-params: 88┬Ás, render: 177ms)
+Inquiry submission first try error: Could not find the 'course_level' column of 'inquiries' in the schema cache
+ POST /contact 200 in 886ms (compile: 12ms, proxy.ts: 291ms, render: 583ms)
+ GET /contact 200 in 667ms (compile: 23ms, proxy.ts: 206ms, render: 437ms)
+ POST /contact 200 in 271ms (compile: 14ms, proxy.ts: 121ms, render: 136ms)
+Inquiry submission first try error: Could not find the 'course_level' column of 'inquiries' in the schema cache
+ POST /contact 200 in 601ms (compile: 9ms, proxy.ts: 165ms, render: 426ms)
+ GET /dashboard/inquiries 200 in 595ms (compile: 4ms, proxy.ts: 102ms, render: 489ms)
+ GET /dashboard/feedback 200 in 560ms (compile: 172ms, proxy.ts: 111ms, render: 276ms)
+ GET /dashboard/courses 200 in 608ms (compile: 156ms, proxy.ts: 136ms, render: 316ms)
+ GET /dashboard/testimonials 200 in 489ms (compile: 156ms, proxy.ts: 117ms, render: 216ms)
+ GET /dashboard/settings 200 in 338ms (compile: 66ms, proxy.ts: 131ms, render: 141ms)
+ GET /dashboard 200 in 1153ms (compile: 168ms, proxy.ts: 122ms, render: 863ms)
+Ô£ô Compiled in 291ms
+ GET /contact 200 in 3.5s (compile: 389ms, proxy.ts: 692ms, render: 2.4s)
+ GET /contact 200 in 2.1s (compile: 127ms, proxy.ts: 1538ms, render: 458ms)
+ GET /dashboard 200 in 3.7s (compile: 231ms, proxy.ts: 327ms, render: 3.1s)
+ GET /courses/bundle 200 in 3.6s (compile: 2.1s, proxy.ts: 739ms, generate-params: 8ms, render: 841ms)
+ GET /dashboard 200 in 2.9s (compile: 1292ms, proxy.ts: 1016ms, render: 610ms)
+ GET /contact 200 in 434ms (compile: 116ms, proxy.ts: 140ms, render: 177ms)
+ GET /courses/bundle 200 in 638ms (compile: 39ms, proxy.ts: 196ms, generate-params: 78┬Ás, render: 403ms)
+ GET /dashboard 200 in 532ms (compile: 18ms, proxy.ts: 217ms, render: 298ms)
+ GET /courses/bundle 200 in 479ms (compile: 25ms, proxy.ts: 210ms, generate-params: 35┬Ás, render: 244ms)
+ GET /contact 200 in 439ms (compile: 15ms, proxy.ts: 176ms, render: 248ms)
+ GET /dashboard 200 in 535ms (compile: 8ms, proxy.ts: 131ms, render: 396ms)
+ GET /courses/bundle 200 in 472ms (compile: 125ms, proxy.ts: 192ms, generate-params: 87┬Ás, render: 155ms)
+ GET /contact 200 in 1405ms (compile: 13ms, proxy.ts: 195ms, render: 1196ms)
+ GET /contact 200 in 1409ms (compile: 198ms, proxy.ts: 249ms, render: 962ms)
+ GET /dashboard 200 in 1904ms (compile: 12ms, proxy.ts: 436ms, render: 1456ms)
+ GET /contact 200 in 991ms (compile: 16ms, proxy.ts: 303ms, render: 672ms)
+ GET /courses/bundle 200 in 1645ms (compile: 240ms, proxy.ts: 165ms, generate-params: 14ms, render: 1240ms)
+ GET /dashboard 200 in 1443ms (compile: 40ms, proxy.ts: 318ms, render: 1085ms)
+ GET /courses/bundle 200 in 1366ms (compile: 152ms, proxy.ts: 414ms, generate-params: 81┬Ás, render: 800ms)
+ GET /dashboard 200 in 1140ms (compile: 216ms, proxy.ts: 227ms, render: 696ms)
+ GET /contact 200 in 717ms (compile: 14ms, proxy.ts: 262ms, render: 441ms)
+ GET /courses/bundle 200 in 782ms (compile: 18ms, proxy.ts: 219ms, generate-params: 33┬Ás, render: 545ms)
+ GET /contact 200 in 393ms (compile: 54ms, proxy.ts: 145ms, render: 194ms)
+ GET /dashboard 200 in 485ms (compile: 16ms, proxy.ts: 103ms, render: 367ms)
+ GET /courses/bundle 200 in 506ms (compile: 131ms, proxy.ts: 124ms, generate-params: 35┬Ás, render: 251ms)
+ GET /dashboard 200 in 298ms (compile: 8ms, proxy.ts: 162ms, render: 128ms)
+ GET /contact 200 in 711ms (compile: 20ms, proxy.ts: 365ms, render: 327ms)
+ GET /contact 200 in 300ms (compile: 9ms, proxy.ts: 136ms, render: 156ms)
+ GET /courses/bundle 200 in 747ms (compile: 13ms, proxy.ts: 317ms, generate-params: 5ms, render: 417ms)
+ GET /dashboard 200 in 598ms (compile: 60ms, proxy.ts: 250ms, render: 288ms)
+ GET /courses/bundle 200 in 377ms (compile: 82ms, proxy.ts: 200ms, generate-params: 33┬Ás, render: 96ms)
+ GET /courses/bundle 200 in 394ms (compile: 14ms, proxy.ts: 245ms, generate-params: 87┬Ás, render: 135ms)
+ GET /contact 200 in 2.2s (compile: 13ms, proxy.ts: 741ms, render: 1407ms)
+ GET /dashboard 200 in 2.4s (compile: 9ms, proxy.ts: 575ms, render: 1769ms)
+ GET /contact 200 in 1456ms (compile: 561ms, proxy.ts: 426ms, render: 469ms)
+ GET /courses/bundle 200 in 1980ms (compile: 272ms, proxy.ts: 304ms, generate-params: 22ms, render: 1404ms)
+ GET /dashboard 200 in 1888ms (compile: 332ms, proxy.ts: 269ms, render: 1288ms)
+ GET /contact 200 in 733ms (compile: 123ms, proxy.ts: 122ms, render: 488ms)
+ GET /courses/bundle 200 in 1451ms (compile: 74ms, proxy.ts: 565ms, generate-params: 47┬Ás, render: 812ms)
+ GET /dashboard 200 in 935ms (compile: 11ms, proxy.ts: 201ms, render: 724ms)
+ GET /courses/bundle 200 in 766ms (compile: 40ms, proxy.ts: 202ms, generate-params: 42┬Ás, render: 523ms)
+ GET /contact 200 in 433ms (compile: 15ms, proxy.ts: 139ms, render: 279ms)
+ GET /dashboard 200 in 550ms (compile: 21ms, proxy.ts: 108ms, render: 421ms)
+ GET /courses/bundle 200 in 472ms (compile: 84ms, proxy.ts: 166ms, generate-params: 32┬Ás, render: 222ms)
+ GET /dashboard 200 in 343ms (compile: 9ms, proxy.ts: 202ms, render: 133ms)
+ GET /contact 200 in 635ms (compile: 12ms, proxy.ts: 198ms, render: 425ms)
+ POST /contact 200 in 246ms (compile: 7ms, proxy.ts: 104ms, render: 136ms)
+ POST /contact 200 in 593ms (compile: 5ms, proxy.ts: 186ms, render: 401ms)
+ GET /dashboard 200 in 590ms (compile: 10ms, proxy.ts: 158ms, render: 422ms)
+ GET /dashboard/inquiries 200 in 827ms (compile: 164ms, proxy.ts: 256ms, render: 407ms)
+ GET /dashboard/feedback 200 in 466ms (compile: 130ms, proxy.ts: 96ms, render: 241ms)
+ GET /dashboard/inquiries 200 in 290ms (compile: 16ms, proxy.ts: 114ms, render: 160ms)
+Ô£ô Compiled in 223ms
+ GET /dashboard/inquiries 200 in 2.4s (compile: 208ms, proxy.ts: 631ms, render: 1563ms)
+ GET /contact 200 in 2.4s (compile: 159ms, proxy.ts: 1009ms, render: 1233ms)
+ GET /contact 200 in 1323ms (compile: 141ms, proxy.ts: 428ms, render: 754ms)
+ GET /dashboard/inquiries 200 in 1742ms (compile: 418ms, proxy.ts: 339ms, render: 985ms)
+ GET /courses/bundle 200 in 3.0s (compile: 522ms, proxy.ts: 1006ms, generate-params: 6ms, render: 1465ms)
+ GET /contact 200 in 1309ms (compile: 46ms, proxy.ts: 305ms, render: 958ms)
+ GET /dashboard/inquiries 200 in 1600ms (compile: 30ms, proxy.ts: 217ms, render: 1352ms)
+ GET /courses/bundle 200 in 1738ms (compile: 103ms, proxy.ts: 157ms, generate-params: 37┬Ás, render: 1478ms)
+ GET /contact 200 in 1183ms (compile: 118ms, proxy.ts: 214ms, render: 852ms)
+ GET /dashboard/inquiries 200 in 1193ms (compile: 33ms, proxy.ts: 215ms, render: 945ms)
+ GET /courses/bundle 200 in 1554ms (compile: 171ms, proxy.ts: 242ms, generate-params: 100┬Ás, render: 1141ms)
+ GET /contact 200 in 699ms (compile: 79ms, proxy.ts: 277ms, render: 344ms)
+ GET /dashboard/inquiries 200 in 707ms (compile: 18ms, proxy.ts: 280ms, render: 410ms)
+ GET /courses/bundle 200 in 1029ms (compile: 41ms, proxy.ts: 390ms, generate-params: 92┬Ás, render: 598ms)
+ GET /courses/bundle 200 in 478ms (compile: 36ms, proxy.ts: 342ms, generate-params: 65┬Ás, render: 100ms)
+ GET /courses/bundle 200 in 652ms (compile: 18ms, proxy.ts: 557ms, generate-params: 7ms, render: 77ms)
+ GET /contact 200 in 1039ms (compile: 6ms, proxy.ts: 859ms, render: 174ms)
+ GET /courses/bundle 200 in 317ms (compile: 12ms, proxy.ts: 210ms, generate-params: 38┬Ás, render: 96ms)
+ GET /contact 200 in 255ms (compile: 4ms, proxy.ts: 193ms, render: 57ms)
+ GET /contact 200 in 1177ms (compile: 33ms, proxy.ts: 359ms, render: 785ms)
+ GET /dashboard/inquiries 200 in 2.4s (compile: 5ms, proxy.ts: 1485ms, render: 911ms)
+ GET /contact 200 in 704ms (compile: 55ms, proxy.ts: 341ms, render: 308ms)
+ GET /dashboard/inquiries 200 in 861ms (compile: 182ms, proxy.ts: 193ms, render: 486ms)
+ GET /courses/bundle 200 in 1344ms (compile: 180ms, proxy.ts: 499ms, generate-params: 57┬Ás, render: 665ms)
+ GET /courses/bundle 200 in 536ms (compile: 20ms, proxy.ts: 314ms, generate-params: 55┬Ás, render: 202ms)
+ GET /dashboard/inquiries 200 in 1240ms (compile: 10ms, proxy.ts: 388ms, render: 842ms)
+ GET /contact 200 in 1125ms (compile: 24ms, proxy.ts: 649ms, render: 452ms)
+ GET /dashboard/inquiries 200 in 726ms (compile: 114ms, proxy.ts: 245ms, render: 367ms)
+ GET /courses/bundle 200 in 964ms (compile: 20ms, proxy.ts: 289ms, generate-params: 84┬Ás, render: 655ms)
+ GET /courses/bundle 200 in 545ms (compile: 43ms, proxy.ts: 389ms, generate-params: 10ms, render: 114ms)
+ GET /contact 200 in 426ms (compile: 6ms, proxy.ts: 355ms, render: 65ms)
+ GET /dashboard/inquiries 200 in 496ms (compile: 6ms, proxy.ts: 390ms, render: 100ms)
+ GET /contact 200 in 3.4s (compile: 14ms, proxy.ts: 531ms, render: 2.8s)
+ GET /dashboard/inquiries 200 in 3.4s (compile: 83ms, proxy.ts: 379ms, render: 2.9s)
+ GET /courses/bundle 200 in 3.7s (compile: 10ms, proxy.ts: 619ms, generate-params: 31┬Ás, render: 3.1s)
+ GET /contact 200 in 2.9s (compile: 271ms, proxy.ts: 294ms, render: 2.4s)
+ GET /contact 200 in 2.0s (compile: 31ms, proxy.ts: 1501ms, render: 477ms)
+ GET /dashboard/inquiries 200 in 2.8s (compile: 1236ms, proxy.ts: 957ms, render: 634ms)
+ GET /courses/bundle 200 in 3.2s (compile: 1074ms, proxy.ts: 371ms, generate-params: 38ms, render: 1798ms)
+ GET /dashboard/inquiries 200 in 624ms (compile: 49ms, proxy.ts: 209ms, render: 366ms)
+ GET /contact 200 in 389ms (compile: 25ms, proxy.ts: 129ms, render: 236ms)
+ GET /courses/bundle 200 in 810ms (compile: 22ms, proxy.ts: 295ms, generate-params: 36┬Ás, render: 492ms)
+ GET /dashboard/inquiries 200 in 260ms (compile: 11ms, proxy.ts: 131ms, render: 119ms)
+ GET /courses/bundle 200 in 422ms (compile: 89ms, proxy.ts: 148ms, generate-params: 33┬Ás, render: 184ms)
+ GET /dashboard/inquiries 200 in 253ms (compile: 13ms, proxy.ts: 156ms, render: 83ms)
+ POST /contact 200 in 904ms (compile: 30ms, proxy.ts: 383ms, render: 491ms)
+ GET /dashboard/inquiries 200 in 881ms (compile: 16ms, proxy.ts: 274ms, render: 591ms)
+Ô£ô Compiled in 177ms
+Ô£ô Compiled in 339ms
+ GET /contact 200 in 1325ms (compile: 20ms, proxy.ts: 284ms, render: 1021ms)
+ GET /courses/bundle 200 in 1373ms (compile: 202ms, proxy.ts: 297ms, generate-params: 33ms, render: 874ms)
+ GET /dashboard/inquiries 200 in 1393ms (compile: 673ms, proxy.ts: 309ms, render: 411ms)
+ POST /dashboard/inquiries 200 in 769ms (compile: 8ms, proxy.ts: 234ms, render: 526ms)
+ GET /dashboard/inquiries 200 in 868ms (compile: 17ms, proxy.ts: 261ms, render: 590ms)
+ POST /dashboard/inquiries 200 in 504ms (compile: 8ms, proxy.ts: 120ms, render: 376ms)
+Ô£ô Compiled in 160ms
+ GET /courses/bundle 200 in 412ms (compile: 25ms, proxy.ts: 254ms, generate-params: 14ms, render: 133ms)
+ GET /contact 200 in 1629ms (compile: 8ms, proxy.ts: 948ms, render: 673ms)
+ GET /dashboard/inquiries 200 in 1650ms (compile: 244ms, proxy.ts: 498ms, render: 908ms)
+ GET /dashboard/inquiries 200 in 1390ms (compile: 8ms, proxy.ts: 619ms, render: 763ms)
+ POST /dashboard/inquiries 200 in 923ms (compile: 7ms, proxy.ts: 154ms, render: 763ms)
+ POST /dashboard/inquiries 200 in 872ms (compile: 10ms, proxy.ts: 254ms, render: 608ms)
+ POST /dashboard/inquiries 200 in 474ms (compile: 13ms, proxy.ts: 119ms, render: 341ms)
+ POST /dashboard/inquiries 200 in 610ms (compile: 13ms, proxy.ts: 160ms, render: 436ms)
+ POST /dashboard/inquiries 200 in 528ms (compile: 4ms, proxy.ts: 107ms, render: 416ms)
+ POST /dashboard/inquiries 200 in 781ms (compile: 7ms, proxy.ts: 307ms, render: 467ms)
+ POST /dashboard/inquiries 200 in 554ms (compile: 8ms, proxy.ts: 103ms, render: 443ms)
+ GET /dashboard/inquiries 200 in 465ms (compile: 6ms, proxy.ts: 113ms, render: 346ms)
+Ô£ô Compiled in 341ms
+Ô£ô Compiled in 111ms
+ GET /contact 200 in 1073ms (compile: 17ms, proxy.ts: 448ms, render: 608ms)
+ GET /courses/bundle 200 in 1109ms (compile: 523ms, proxy.ts: 473ms, generate-params: 8ms, render: 112ms)
+ GET /dashboard/inquiries 200 in 1089ms (compile: 305ms, proxy.ts: 448ms, render: 336ms)
+ GET /dashboard/inquiries 200 in 2.5s (compile: 12ms, proxy.ts: 527ms, render: 1932ms)
+ POST /dashboard/inquiries 200 in 712ms (compile: 5ms, proxy.ts: 177ms, render: 530ms)
+ GET /dashboard/inquiries 200 in 453ms (compile: 5ms, proxy.ts: 168ms, render: 279ms)
+ POST /dashboard/inquiries 200 in 607ms (compile: 7ms, proxy.ts: 181ms, render: 419ms)
+ GET /dashboard/inquiries 200 in 492ms (compile: 5ms, proxy.ts: 261ms, render: 226ms)
+ POST /dashboard/inquiries 200 in 1002ms (compile: 10ms, proxy.ts: 332ms, render: 660ms)
+ GET /dashboard/inquiries 200 in 433ms (compile: 5ms, proxy.ts: 156ms, render: 273ms)
+ GET /dashboard/inquiries 200 in 745ms (compile: 9ms, proxy.ts: 211ms, render: 526ms)
+ POST /dashboard/inquiries 200 in 602ms (compile: 8ms, proxy.ts: 122ms, render: 472ms)
+ GET /dashboard/inquiries 200 in 377ms (compile: 6ms, proxy.ts: 151ms, render: 220ms)
+Ô£ô Compiled in 172ms
+ GET /courses/bundle 200 in 1530ms (compile: 781ms, proxy.ts: 567ms, generate-params: 11ms, render: 182ms)
+ GET /dashboard/inquiries 200 in 1581ms (compile: 481ms, proxy.ts: 607ms, render: 493ms)
+ GET /dashboard/inquiries 200 in 1671ms (compile: 10ms, proxy.ts: 426ms, render: 1235ms)
+ POST /dashboard/inquiries 200 in 947ms (compile: 6ms, proxy.ts: 117ms, render: 824ms)
+ GET /dashboard/inquiries 200 in 768ms (compile: 22ms, proxy.ts: 346ms, render: 399ms)
+ POST /dashboard/inquiries 200 in 802ms (compile: 9ms, proxy.ts: 134ms, render: 658ms)
+ GET /dashboard/inquiries 200 in 558ms (compile: 11ms, proxy.ts: 201ms, render: 346ms)
+ GET /contact 200 in 318ms (compile: 14ms, proxy.ts: 246ms, render: 58ms)
+ POST /dashboard/inquiries 200 in 831ms (compile: 5ms, proxy.ts: 122ms, render: 704ms)
+ GET /dashboard/inquiries 200 in 598ms (compile: 9ms, proxy.ts: 158ms, render: 431ms)
+ GET /dashboard/inquiries 200 in 473ms (compile: 12ms, proxy.ts: 107ms, render: 354ms)
+ POST /dashboard/inquiries 200 in 716ms (compile: 7ms, proxy.ts: 136ms, render: 573ms)
+ GET /dashboard/inquiries 200 in 395ms (compile: 12ms, proxy.ts: 104ms, render: 278ms)
+Ô£ô Compiled in 121ms
+ GET /contact 200 in 935ms (compile: 12ms, proxy.ts: 332ms, render: 591ms)
+ GET /courses/bundle 200 in 955ms (compile: 18ms, proxy.ts: 247ms, generate-params: 9ms, render: 690ms)
+ GET /dashboard/inquiries 200 in 993ms (compile: 235ms, proxy.ts: 449ms, render: 309ms)
+ GET /dashboard/inquiries 200 in 1614ms (compile: 7ms, proxy.ts: 375ms, render: 1232ms)
+ POST /dashboard/inquiries 200 in 686ms (compile: 11ms, proxy.ts: 115ms, render: 560ms)
+ GET /dashboard/inquiries 200 in 547ms (compile: 5ms, proxy.ts: 161ms, render: 381ms)
+ GET /dashboard/inquiries 200 in 1088ms (compile: 14ms, proxy.ts: 541ms, render: 533ms)
+ POST /dashboard/inquiries 200 in 682ms (compile: 7ms, proxy.ts: 234ms, render: 441ms)
+ GET /dashboard/inquiries 200 in 370ms (compile: 5ms, proxy.ts: 157ms, render: 208ms)
+ POST /dashboard/inquiries 200 in 622ms (compile: 5ms, proxy.ts: 119ms, render: 498ms)
+ GET /dashboard/inquiries 200 in 406ms (compile: 18ms, proxy.ts: 115ms, render: 272ms)
+ POST /dashboard/inquiries 200 in 609ms (compile: 9ms, proxy.ts: 119ms, render: 482ms)
+ GET /dashboard/inquiries 200 in 466ms (compile: 8ms, proxy.ts: 153ms, render: 305ms)

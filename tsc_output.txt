@@ -1,0 +1,32 @@
+src/app/actions.ts(18,54): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(values: never, options?: { count?: "exact" | "planned" | "estimated" | undefined; } | undefined): PostgrestFilterBuilder<{ PostgrestVersion: "12"; }, never, never, null, "inquiries", never, "POST">', gave the following error.
+    Argument of type '{ name: string; email: string; phone: string; inquiry_type: string; message: string | null; course_id: string | null; }' is not assignable to parameter of type 'never'.
+  Overload 2 of 2, '(values: never[], options?: { count?: "exact" | "planned" | "estimated" | undefined; defaultToNull?: boolean | undefined; } | undefined): PostgrestFilterBuilder<{ PostgrestVersion: "12"; }, never, never, null, "inquiries", never, "POST">', gave the following error.
+    Object literal may only specify known properties, and 'name' does not exist in type 'never[]'.
+src/app/actions.ts(46,53): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(values: never, options?: { count?: "exact" | "planned" | "estimated" | undefined; } | undefined): PostgrestFilterBuilder<{ PostgrestVersion: "12"; }, never, never, null, "feedback", never, "POST">', gave the following error.
+    Argument of type '{ name: string | null; rating: number; category: string | null; message: string; }' is not assignable to parameter of type 'never'.
+  Overload 2 of 2, '(values: never[], options?: { count?: "exact" | "planned" | "estimated" | undefined; defaultToNull?: boolean | undefined; } | undefined): PostgrestFilterBuilder<{ PostgrestVersion: "12"; }, never, never, null, "feedback", never, "POST">', gave the following error.
+    Object literal may only specify known properties, and 'name' does not exist in type 'never[]'.
+src/app/actions.ts(72,54): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(values: never, options?: { count?: "exact" | "planned" | "estimated" | undefined; } | undefined): PostgrestFilterBuilder<{ PostgrestVersion: "12"; }, never, never, null, "inquiries", never, "POST">', gave the following error.
+    Argument of type '{ name: string; email: string; phone: string; inquiry_type: string; course_id: string; message: string; }' is not assignable to parameter of type 'never'.
+  Overload 2 of 2, '(values: never[], options?: { count?: "exact" | "planned" | "estimated" | undefined; defaultToNull?: boolean | undefined; } | undefined): PostgrestFilterBuilder<{ PostgrestVersion: "12"; }, never, never, null, "inquiries", never, "POST">', gave the following error.
+    Object literal may only specify known properties, and 'name' does not exist in type 'never[]'.
+src/app/api/seed/route.ts(21,59): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(values: never, options?: { onConflict?: string | undefined; ignoreDuplicates?: boolean | undefined; count?: "exact" | "planned" | "estimated" | undefined; } | undefined): PostgrestFilterBuilder<{ ...; }, ... 5 more ..., "POST">', gave the following error.
+    Argument of type '{ id: string; level: string; category: string; title: string; short_description: string; full_description: string; duration: string; hours: number; price: number; featured_image: string; outcomes: string[]; syllabus: { ...; }[]; }[]' is not assignable to parameter of type 'never'.
+  Overload 2 of 2, '(values: never[], options?: { onConflict?: string | undefined; ignoreDuplicates?: boolean | undefined; count?: "exact" | "planned" | "estimated" | undefined; defaultToNull?: boolean | undefined; } | undefined): PostgrestFilterBuilder<...>', gave the following error.
+    Argument of type '{ id: string; level: string; category: string; title: string; short_description: string; full_description: string; duration: string; hours: number; price: number; featured_image: string; outcomes: string[]; syllabus: { ...; }[]; }[]' is not assignable to parameter of type 'never[]'.
+      Type '{ id: string; level: string; category: string; title: string; short_description: string; full_description: string; duration: string; hours: number; price: number; featured_image: string; outcomes: string[]; syllabus: { ...; }[]; }' is not assignable to type 'never'.
+src/app/courses/[level]/page.tsx(8,43): error TS2339: Property 'level' does not exist on type 'never'.
+src/app/courses/[level]/page.tsx(21,9): error TS2698: Spread types may only be created from object types.
+src/app/courses/[level]/page.tsx(22,36): error TS2339: Property 'short_description' does not exist on type 'never'.
+src/app/courses/[level]/page.tsx(23,35): error TS2339: Property 'full_description' does not exist on type 'never'.
+src/app/courses/[level]/page.tsx(24,33): error TS2339: Property 'featured_image' does not exist on type 'never'.
+src/app/courses/[level]/page.tsx(25,28): error TS2339: Property 'outcomes' does not exist on type 'never'.
+src/app/courses/[level]/page.tsx(26,28): error TS2339: Property 'syllabus' does not exist on type 'never'.
+src/app/courses/[level]/page.tsx(70,51): error TS7006: Parameter 'outcome' implicitly has an 'any' type.
+src/app/courses/[level]/page.tsx(70,60): error TS7006: Parameter 'idx' implicitly has an 'any' type.
+src/app/courses/[level]/page.tsx(85,51): error TS7006: Parameter 'item' implicitly has an 'any' type.
+src/app/courses/[level]/page.tsx(85,57): error TS7006: Parameter 'idx' implicitly has an 'any' type.

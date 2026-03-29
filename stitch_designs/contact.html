@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Be+Vietnam+Pro:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary": "#690006",
+              "surface-container-low": "#0c1d2d",
+              "on-tertiary-fixed-variant": "#93000d",
+              "on-secondary-fixed": "#241a00",
+              "tertiary": "#ffbfb8",
+              "secondary": "#ecc246",
+              "primary": "#f2ca50",
+              "surface-container-highest": "#263647",
+              "error-container": "#93000a",
+              "on-secondary-fixed-variant": "#584400",
+              "primary-fixed-dim": "#e9c349",
+              "outline-variant": "#4d4635",
+              "on-primary-fixed-variant": "#574500",
+              "on-primary-fixed": "#241a00",
+              "on-surface": "#d3e4fa",
+              "background": "#041424",
+              "on-error-container": "#ffdad6",
+              "on-primary-container": "#554300",
+              "tertiary-fixed-dim": "#ffb4ab",
+              "surface": "#041424",
+              "on-secondary-container": "#352800",
+              "on-surface-variant": "#d0c5af",
+              "secondary-fixed": "#ffe08e",
+              "primary-container": "#d4af37",
+              "on-tertiary-container": "#90000c",
+              "on-tertiary-fixed": "#410002",
+              "outline": "#99907c",
+              "inverse-on-surface": "#223243",
+              "secondary-container": "#b18c09",
+              "surface-bright": "#2b3a4c",
+              "surface-variant": "#263647",
+              "inverse-primary": "#735c00",
+              "on-error": "#690005",
+              "secondary-fixed-dim": "#ecc246",
+              "on-background": "#d3e4fa",
+              "surface-container-high": "#1b2b3c",
+              "primary-fixed": "#ffe088",
+              "on-primary": "#3c2f00",
+              "inverse-surface": "#d3e4fa",
+              "surface-container": "#102131",
+              "surface-dim": "#041424",
+              "on-secondary": "#3d2e00",
+              "surface-tint": "#e9c349",
+              "surface-container-lowest": "#000f1f",
+              "error": "#ffb4ab",
+              "tertiary-container": "#ff968c",
+              "tertiary-fixed": "#ffdad6"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Be Vietnam Pro"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-card {
+        background: rgba(38, 54, 71, 0.4);
+        backdrop-filter: blur(12px);
+        border-top: 1px solid rgba(153, 144, 124, 0.15);
+        border-left: 1px solid rgba(153, 144, 124, 0.15);
+      }
+      .btn-glow:hover {
+        box-shadow: 0 0 20px rgba(242, 202, 80, 0.2);
+      }
+      input:focus, select:focus, textarea:focus {
+        outline: none;
+        border-color: #f2ca50;
+        box-shadow: 0 0 0 1px #f2ca50;
+      }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary/30 selection:text-primary">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#263647]/80 backdrop-blur-md shadow-[0_24px_24px_rgba(233,195,73,0.06)]">
+<div class="max-w-7xl mx-auto px-8 flex justify-between items-center h-20">
+<div class="text-2xl font-bold text-[#f2ca50] tracking-tight font-headline">Kafaaat</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-manrope text-sm font-medium tracking-wide text-[#d0c5af] hover:text-[#f2ca50] transition-colors" href="#">Home</a>
+<a class="font-manrope text-sm font-medium tracking-wide text-[#d0c5af] hover:text-[#f2ca50] transition-colors" href="#">About Us</a>
+<a class="font-manrope text-sm font-medium tracking-wide text-[#d0c5af] hover:text-[#f2ca50] transition-colors" href="#">Courses</a>
+<a class="font-manrope text-sm font-medium tracking-wide text-[#d0c5af] hover:text-[#f2ca50] transition-colors" href="#">Blog</a>
+<a class="font-manrope text-sm font-bold tracking-wide text-[#f2ca50] border-b-2 border-[#f2ca50] pb-1" href="#">Contact Us</a>
+</div>
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary-container font-headline font-bold py-2.5 px-6 rounded-full hover:scale-105 active:scale-95 transition-all duration-300 btn-glow">
+                Start Learning
+            </button>
+</div>
+</nav>
+<main class="pt-32 pb-20">
+<!-- Hero Section -->
+<header class="max-w-7xl mx-auto px-8 mb-16">
+<h1 class="font-headline text-5xl md:text-7xl font-extrabold text-on-surface tracking-tight mb-6">
+                Connect with <span class="text-primary">Excellence.</span>
+</h1>
+<p class="text-on-surface-variant text-lg max-w-2xl leading-relaxed">
+                Whether you're starting your German journey or advancing toward professional certification, our team at Kafaaat Academy is ready to bridge the gap.
+            </p>
+</header>
+<!-- Main Content Grid -->
+<section class="max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Contact Form (Bento Style) -->
+<div class="lg:col-span-7 space-y-8">
+<div class="glass-card p-8 md:p-12 rounded-xl">
+<h2 class="font-headline text-2xl font-bold mb-8 text-on-surface">Send a Message</h2>
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="text-sm font-medium text-on-surface-variant ml-1">Full Name</label>
+<input class="w-full bg-surface-container-highest border-transparent rounded-xl py-3 px-4 text-on-surface placeholder:text-outline-variant/50 transition-all" placeholder="Hans Schmidt" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-medium text-on-surface-variant ml-1">Email Address</label>
+<input class="w-full bg-surface-container-highest border-transparent rounded-xl py-3 px-4 text-on-surface placeholder:text-outline-variant/50 transition-all" placeholder="hans@example.de" type="email"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="text-sm font-medium text-on-surface-variant ml-1">Phone Number</label>
+<input class="w-full bg-surface-container-highest border-transparent rounded-xl py-3 px-4 text-on-surface placeholder:text-outline-variant/50 transition-all" placeholder="+49 000 000000" type="tel"/>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-medium text-on-surface-variant ml-1">Desired Level</label>
+<select class="w-full bg-surface-container-highest border-transparent rounded-xl py-3 px-4 text-on-surface appearance-none transition-all">
+<option>Beginner (A1-A2)</option>
+<option>Intermediate (B1-B2)</option>
+<option>Advanced (C1-C2)</option>
+<option>Medical German</option>
+<option>Business German</option>
+</select>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-medium text-on-surface-variant ml-1">Message</label>
+<textarea class="w-full bg-surface-container-highest border-transparent rounded-xl py-3 px-4 text-on-surface placeholder:text-outline-variant/50 transition-all resize-none" placeholder="How can we help you achieve your goals?" rows="4"></textarea>
+</div>
+<button class="w-full bg-gradient-to-br from-primary to-primary-container text-on-primary-container font-headline font-bold py-4 rounded-xl hover:scale-[1.02] active:scale-95 transition-all duration-300 btn-glow flex justify-center items-center gap-2" type="submit">
+<span>Submit Request</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">send</span>
+</button>
+</form>
+</div>
+</div>
+<!-- Contact Info & Quick Links -->
+<div class="lg:col-span-5 space-y-6">
+<!-- Info Cards -->
+<div class="grid grid-cols-1 gap-6">
+<!-- WhatsApp Priority -->
+<div class="bg-surface-container-low p-8 rounded-xl flex items-center justify-between group hover:bg-surface-container transition-colors duration-300">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">chat</span>
+</div>
+<div>
+<h3 class="font-bold text-on-surface">WhatsApp Support</h3>
+<p class="text-on-surface-variant text-sm">Instant response within 24h</p>
+</div>
+</div>
+<a class="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-bold hover:bg-primary hover:text-on-primary transition-all" href="#">Message Us</a>
+</div>
+<!-- Email -->
+<div class="bg-surface-container-low p-8 rounded-xl flex items-center gap-4 hover:bg-surface-container transition-colors duration-300">
+<div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div>
+<h3 class="font-bold text-on-surface">Email Address</h3>
+<p class="text-on-surface-variant">admissions@kafaaat.academy</p>
+</div>
+</div>
+<!-- Location Placeholder -->
+<div class="bg-surface-container-low p-8 rounded-xl space-y-4 hover:bg-surface-container transition-colors duration-300">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+<div>
+<h3 class="font-bold text-on-surface">Academy Headquarters</h3>
+<p class="text-on-surface-variant">123 Berlinstrasse, Mitte District, Berlin, Germany</p>
+</div>
+</div>
+<div class="aspect-video w-full rounded-xl overflow-hidden bg-surface-container-highest relative">
+<img class="w-full h-full object-cover opacity-60 grayscale hover:grayscale-0 transition-all duration-700" data-alt="Minimalistic map of Berlin city center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAagTV71dX3Ri4Fiqpt2yxrFHUGhU9CPI5fhDhkQRQv683c8C0LHrCnxIhpC28XxZvclxoK9AeVjeRNGfb628h2E6ey4zDOsbIpqckD7bYej7WzF2b20FO8hFnNzLXqXrOy7Ma8xQzB-5vwLTHcxX1rV9aKYG3gRbS5YLbLNDD-gmTWIvXtRslWQPZggxr5P1_XXcSMbsej4plTunu-hppM1U6NuoB8vsaFs2N1abGq7IuZwigNg3sG30Tjxk-6ZQUZeJFU0bEZiXoX"/>
+<div class="absolute inset-0 flex items-center justify-center">
+<span class="px-4 py-2 bg-background/80 backdrop-blur-md rounded-full text-xs font-bold text-primary border border-primary/20">Open in Maps</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="max-w-7xl mx-auto px-8 mt-32">
+<div class="text-center mb-16">
+<h2 class="font-headline text-4xl font-bold text-on-surface mb-4">Frequently Asked Questions</h2>
+<p class="text-on-surface-variant max-w-xl mx-auto">Get quick answers to common queries about our courses and enrollment process.</p>
+</div>
+<div class="max-w-3xl mx-auto space-y-4">
+<!-- Accordion Item 1 -->
+<div class="group bg-surface-container-low rounded-xl overflow-hidden">
+<button class="w-full p-6 flex justify-between items-center text-left hover:bg-surface-container transition-colors">
+<span class="font-bold text-on-surface">Do you offer 100% online courses?</span>
+<span class="material-symbols-outlined text-primary group-hover:rotate-180 transition-transform">expand_more</span>
+</button>
+<div class="px-6 pb-6 text-on-surface-variant text-sm leading-relaxed border-t border-outline-variant/5 pt-4">
+                        Yes, Kafaaat Academy specializes in high-end virtual classrooms that mimic the physical laboratory experience, providing flexibility for students across the globe.
+                    </div>
+</div>
+<!-- Accordion Item 2 -->
+<div class="group bg-surface-container-low rounded-xl overflow-hidden">
+<button class="w-full p-6 flex justify-between items-center text-left hover:bg-surface-container transition-colors">
+<span class="font-bold text-on-surface">Are your certificates recognized in Germany?</span>
+<span class="material-symbols-outlined text-primary group-hover:rotate-180 transition-transform">expand_more</span>
+</button>
+<div class="hidden px-6 pb-6 text-on-surface-variant text-sm leading-relaxed border-t border-outline-variant/5 pt-4">
+                        Absolutely. Our curriculum is aligned with the CEFR standards (A1-C2) and prepares you directly for TestDaF, DSH, and Goethe-Institut examinations.
+                    </div>
+</div>
+<!-- Accordion Item 3 -->
+<div class="group bg-surface-container-low rounded-xl overflow-hidden">
+<button class="w-full p-6 flex justify-between items-center text-left hover:bg-surface-container transition-colors">
+<span class="font-bold text-on-surface">How long does a typical B2 level course take?</span>
+<span class="material-symbols-outlined text-primary group-hover:rotate-180 transition-transform">expand_more</span>
+</button>
+<div class="hidden px-6 pb-6 text-on-surface-variant text-sm leading-relaxed border-t border-outline-variant/5 pt-4">
+                        Our intensive tracks complete the B2 level in approximately 12-14 weeks, while semi-intensive tracks take up to 20 weeks.
+                    </div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#000f1f] rounded-t-[2rem] mt-20">
+<div class="max-w-7xl mx-auto px-8 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="space-y-4">
+<div class="text-xl font-black text-[#f2ca50] font-headline tracking-tight">Kafaaat</div>
+<p class="font-be-vietnam text-sm text-[#d0c5af] leading-relaxed">
+                    Elevating language education through German engineering and academic rigor.
+                </p>
+</div>
+<div class="space-y-4">
+<h4 class="text-on-surface font-bold text-sm uppercase tracking-widest">Navigation</h4>
+<div class="flex flex-col gap-2">
+<a class="font-be-vietnam text-sm text-[#d0c5af] hover:text-[#f2ca50] transition-all underline-offset-4 hover:underline" href="#">Home</a>
+<a class="font-be-vietnam text-sm text-[#d0c5af] hover:text-[#f2ca50] transition-all underline-offset-4 hover:underline" href="#">Courses</a>
+<a class="font-be-vietnam text-sm text-[#d0c5af] hover:text-[#f2ca50] transition-all underline-offset-4 hover:underline" href="#">About Us</a>
+</div>
+</div>
+<div class="space-y-4">
+<h4 class="text-on-surface font-bold text-sm uppercase tracking-widest">Support</h4>
+<div class="flex flex-col gap-2">
+<a class="font-be-vietnam text-sm text-[#d0c5af] hover:text-[#f2ca50] transition-all underline-offset-4 hover:underline" href="#">FAQ</a>
+<a class="font-be-vietnam text-sm text-[#d0c5af] hover:text-[#f2ca50] transition-all underline-offset-4 hover:underline" href="#">Terms of Service</a>
+<a class="font-be-vietnam text-sm text-[#d0c5af] hover:text-[#f2ca50] transition-all underline-offset-4 hover:underline" href="#">Privacy Policy</a>
+</div>
+</div>
+<div class="space-y-4">
+<h4 class="text-on-surface font-bold text-sm uppercase tracking-widest">Stay Updated</h4>
+<div class="flex gap-2">
+<input class="bg-surface-container-low border-transparent rounded-lg text-xs py-2 px-3 focus:border-primary w-full" placeholder="Your Email" type="text"/>
+<button class="bg-primary text-on-primary font-bold px-4 py-2 rounded-lg text-xs">Join</button>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 py-6 border-t border-outline-variant/10 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="font-be-vietnam text-sm text-[#d0c5af]">© 2024 Kafaaat Academy. Engineering German Excellence.</p>
+<div class="flex gap-6">
+<span class="material-symbols-outlined text-on-surface-variant hover:text-primary cursor-pointer text-xl">social_leaderboard</span>
+<span class="material-symbols-outlined text-on-surface-variant hover:text-primary cursor-pointer text-xl">brand_family</span>
+<span class="material-symbols-outlined text-on-surface-variant hover:text-primary cursor-pointer text-xl">language</span>
+</div>
+</div>
+</footer>
+</body></html>

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Kafaaat Academy | German Excellence</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Be+Vietnam+Pro:wght@300;400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary": "#690006",
+              "surface-container-low": "#0c1d2d",
+              "on-tertiary-fixed-variant": "#93000d",
+              "on-secondary-fixed": "#241a00",
+              "tertiary": "#ffbfb8",
+              "secondary": "#ecc246",
+              "primary": "#f2ca50",
+              "surface-container-highest": "#263647",
+              "error-container": "#93000a",
+              "on-secondary-fixed-variant": "#584400",
+              "primary-fixed-dim": "#e9c349",
+              "outline-variant": "#4d4635",
+              "on-primary-fixed-variant": "#574500",
+              "on-primary-fixed": "#241a00",
+              "on-surface": "#d3e4fa",
+              "background": "#041424",
+              "on-error-container": "#ffdad6",
+              "on-primary-container": "#554300",
+              "tertiary-fixed-dim": "#ffb4ab",
+              "surface": "#041424",
+              "on-secondary-container": "#352800",
+              "on-surface-variant": "#d0c5af",
+              "secondary-fixed": "#ffe08e",
+              "primary-container": "#d4af37",
+              "on-tertiary-container": "#90000c",
+              "on-tertiary-fixed": "#410002",
+              "outline": "#99907c",
+              "inverse-on-surface": "#223243",
+              "secondary-container": "#b18c09",
+              "surface-bright": "#2b3a4c",
+              "surface-variant": "#263647",
+              "inverse-primary": "#735c00",
+              "on-error": "#690005",
+              "secondary-fixed-dim": "#ecc246",
+              "on-background": "#d3e4fa",
+              "surface-container-high": "#1b2b3c",
+              "primary-fixed": "#ffe088",
+              "on-primary": "#3c2f00",
+              "inverse-surface": "#d3e4fa",
+              "surface-container": "#102131",
+              "surface-dim": "#041424",
+              "on-secondary": "#3d2e00",
+              "surface-tint": "#e9c349",
+              "surface-container-lowest": "#000f1f",
+              "error": "#ffb4ab",
+              "tertiary-container": "#ff968c",
+              "tertiary-fixed": "#ffdad6"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Be Vietnam Pro"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(38, 54, 71, 0.4);
+            backdrop-filter: blur(12px);
+            border-top: 1px solid rgba(233, 195, 73, 0.15);
+            border-left: 1px solid rgba(233, 195, 73, 0.15);
+        }
+        .gold-glow {
+            box-shadow: 0 0 40px rgba(242, 202, 80, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary/30 selection:text-primary">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 bg-[#263647]/80 backdrop-blur-md shadow-[0_24px_24px_rgba(233,195,73,0.06)]">
+<div class="max-w-7xl mx-auto px-8 flex justify-between items-center h-20">
+<div class="text-2xl font-bold text-[#f2ca50] tracking-tight font-headline">Kafaaat</div>
+<div class="hidden md:flex space-x-8">
+<a class="font-manrope text-sm font-bold tracking-wide text-[#f2ca50] border-b-2 border-[#f2ca50] pb-1" href="#">Home</a>
+<a class="font-manrope text-sm font-medium tracking-wide text-[#d0c5af] hover:text-[#f2ca50] transition-colors" href="#">About Us</a>
+<a class="font-manrope text-sm font-medium tracking-wide text-[#d0c5af] hover:text-[#f2ca50] transition-colors" href="#">Courses</a>
+<a class="font-manrope text-sm font-medium tracking-wide text-[#d0c5af] hover:text-[#f2ca50] transition-colors" href="#">Blog</a>
+<a class="font-manrope text-sm font-medium tracking-wide text-[#d0c5af] hover:text-[#f2ca50] transition-colors" href="#">Contact Us</a>
+</div>
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary px-6 py-2.5 rounded-full font-bold text-sm hover:scale-105 transition-all duration-300 shadow-lg shadow-primary/20">
+                Start Learning
+            </button>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="absolute top-1/4 -right-20 w-96 h-96 bg-primary/10 rounded-full blur-[120px]"></div>
+<div class="absolute bottom-1/4 -left-20 w-96 h-96 bg-secondary/5 rounded-full blur-[120px]"></div>
+</div>
+<div class="max-w-7xl mx-auto px-8 w-full grid md:grid-cols-2 gap-12 items-center relative z-10">
+<div>
+<span class="inline-block py-1 px-3 rounded-lg bg-surface-container-high text-primary text-xs font-bold tracking-widest uppercase mb-6 border border-outline-variant/20">Elite Language Training</span>
+<h1 class="text-6xl md:text-7xl font-headline font-extrabold text-on-surface leading-[1.1] tracking-tight mb-8">
+                    Learn German <br/><span class="text-primary italic">with Kafaaat</span>
+</h1>
+<p class="text-on-surface-variant text-xl max-w-lg mb-10 leading-relaxed">
+                    Premium German language courses tailored specifically for Arabic speakers. Master A1, A2, and B1 levels with professional native-level guidance.
+                </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary px-8 py-4 rounded-full font-bold text-lg hover:scale-105 active:scale-95 transition-all duration-300 shadow-xl shadow-primary/10">
+                        Start Learning
+                    </button>
+<button class="bg-transparent border border-outline-variant/30 text-primary px-8 py-4 rounded-full font-bold text-lg hover:bg-surface-container-high transition-all">
+                        View Courses
+                    </button>
+</div>
+</div>
+<div class="relative">
+<div class="relative z-10 rounded-[2.5rem] overflow-hidden shadow-2xl gold-glow border border-outline-variant/10">
+<img class="w-full aspect-[4/5] object-cover" data-alt="Modern Berlin architecture with dramatic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHtuPm-gxoKVd9q4CQEYhj2WyKSFmXXvMoCrXMMHA6zLNCagB8y9i1ZFIKJQWAvQw7ism8kqO4MApMxEoAFdsYQAiCSKjbWlYQ1K1gyWHZbopqbHVwI6js7xMKN2pY612iRdgRONsomrMepv3hMisK4RJ3qVCb8jFB4G6rOfFFSlFEEMd8aPmtErj8Zgskr4sgdbVOIGN6sP0ibzTDPMW7zjfPEX8RmOLMc1RpCZgShynYQLiI9dXW46_b0TxYTr2GhAsoChqwHbbv"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
+</div>
+<!-- Floating Glass Card -->
+<div class="absolute -bottom-6 -left-10 glass-card p-6 rounded-2xl shadow-2xl max-w-[240px] z-20">
+<div class="flex items-center gap-3 mb-2">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+<span class="text-on-surface font-bold text-sm tracking-tight">Certified Excellence</span>
+</div>
+<p class="text-on-surface-variant text-xs leading-relaxed">Achieve Goethe-level proficiency with our structured curriculum.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Student Success Stats -->
+<section class="py-24 bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+<div class="text-center">
+<div class="text-5xl font-headline font-extrabold text-primary mb-2 drop-shadow-[0_0_15px_rgba(242,202,80,0.4)]">2.5k+</div>
+<div class="text-on-surface-variant text-sm font-medium tracking-wide uppercase">Students Graduated</div>
+</div>
+<div class="text-center">
+<div class="text-5xl font-headline font-extrabold text-primary mb-2 drop-shadow-[0_0_15px_rgba(242,202,80,0.4)]">98%</div>
+<div class="text-on-surface-variant text-sm font-medium tracking-wide uppercase">Exam Pass Rate</div>
+</div>
+<div class="text-center">
+<div class="text-5xl font-headline font-extrabold text-primary mb-2 drop-shadow-[0_0_15px_rgba(242,202,80,0.4)]">120+</div>
+<div class="text-on-surface-variant text-sm font-medium tracking-wide uppercase">Native Mentors</div>
+</div>
+<div class="text-center">
+<div class="text-5xl font-headline font-extrabold text-primary mb-2 drop-shadow-[0_0_15px_rgba(242,202,80,0.4)]">15+</div>
+<div class="text-on-surface-variant text-sm font-medium tracking-wide uppercase">Learning Modules</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Learn with Kafaaat (Bento Grid) -->
+<section class="py-32 bg-surface">
+<div class="max-w-7xl mx-auto px-8">
+<div class="mb-20 text-center">
+<h2 class="text-4xl md:text-5xl font-headline font-bold mb-6 text-on-surface">The German Engineering <br/> of Language Learning</h2>
+<div class="h-1 w-24 bg-primary mx-auto rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Large Feature -->
+<div class="md:col-span-2 glass-card rounded-[2rem] p-10 flex flex-col justify-end min-h-[400px] relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-8">
+<span class="material-symbols-outlined text-6xl text-primary/20 group-hover:text-primary transition-colors duration-500" data-icon="school">school</span>
+</div>
+<h3 class="text-3xl font-headline font-bold mb-4 text-on-surface">Arabic-Optimized Curriculum</h3>
+<p class="text-on-surface-variant text-lg leading-relaxed max-w-lg">
+                        We bridge the linguistic gap by explaining complex German grammar through structures familiar to Arabic speakers, accelerating your understanding by 40%.
+                    </p>
+</div>
+<!-- Small Feature -->
+<div class="bg-surface-container-low rounded-[2rem] p-8 border border-outline-variant/10">
+<span class="material-symbols-outlined text-4xl text-primary mb-6" data-icon="video_chat" style="font-variation-settings: 'FILL' 1;">video_chat</span>
+<h3 class="text-xl font-headline font-bold mb-3 text-on-surface">Live Interactive Salons</h3>
+<p class="text-on-surface-variant leading-relaxed">Join weekly live sessions with experts in Berlin and Munich for real-time conversation practice.</p>
+</div>
+<!-- Small Feature -->
+<div class="bg-surface-container-low rounded-[2rem] p-8 border border-outline-variant/10">
+<span class="material-symbols-outlined text-4xl text-primary mb-6" data-icon="history_edu" style="font-variation-settings: 'FILL' 1;">history_edu</span>
+<h3 class="text-xl font-headline font-bold mb-3 text-on-surface">Cultural Integration</h3>
+<p class="text-on-surface-variant leading-relaxed">Learn more than just words. We prepare you for German workplace culture and academic etiquette.</p>
+</div>
+<!-- Wide Feature -->
+<div class="md:col-span-2 bg-gradient-to-br from-surface-container-high to-surface-container-low rounded-[2rem] p-10 flex flex-col md:flex-row items-center gap-10">
+<div class="flex-1">
+<h3 class="text-2xl font-headline font-bold mb-4 text-on-surface">Mobile-First Learning App</h3>
+<p class="text-on-surface-variant leading-relaxed mb-6">Take your German journey anywhere. Our dedicated mobile app syncs your progress and provides offline vocabulary drills.</p>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-primary">phone_iphone</span>
+<span class="material-symbols-outlined text-primary">tablet</span>
+</div>
+</div>
+<div class="w-full md:w-1/3 bg-background/50 rounded-xl h-48 flex items-center justify-center border border-outline-variant/20">
+<span class="text-primary font-bold tracking-widest">APP INTERFACE</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Course Levels Preview -->
+<section class="py-32 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+<div>
+<h2 class="text-4xl font-headline font-bold mb-4">Your Path to Fluency</h2>
+<p class="text-on-surface-variant max-w-md">Structured courses following the CEFR standards, refined for precision and speed.</p>
+</div>
+<button class="text-primary font-bold flex items-center gap-2 hover:translate-x-2 transition-transform">
+                    View All Courses <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<!-- A1 Level -->
+<div class="group relative bg-surface rounded-3xl overflow-hidden hover:scale-[1.02] transition-all duration-500">
+<div class="h-48 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="German beginners learning in a modern office" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAC2fQAatSSY23zzCf_0ZEeTABLM5HW1qERAcA1ZhAYSc0_iqnF0MTHIgb9aDsO2alp1aRzBXVB8_VQWHQMNYRu6x6UV6cxYMAbgkEf8goLquKBwHN89ZU0c5Mkc2bfXY6GIouN2AsucXRZqU6yl_YKbIGf0rCpVKRoyR0jzbLLnRDeaPI0312N0LdBk8HHDFdErYjvBAgJHoz3gb8FtJTbZly4j22kBFKX7OeE8Bxkwh3zvmzPo6tTJLeI-Vq1zGcLrPeGAwT0dCUS"/>
+</div>
+<div class="p-8">
+<div class="flex justify-between items-center mb-4">
+<span class="text-xs font-black bg-primary/10 text-primary px-3 py-1 rounded-md">LEVEL A1</span>
+<span class="text-on-surface-variant text-sm italic">8 Weeks</span>
+</div>
+<h3 class="text-2xl font-headline font-bold mb-4">Fundamental German</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-8">Master basics: introductions, daily routines, and essential grammar for immediate communication.</p>
+<button class="w-full py-3 rounded-xl border border-outline-variant/30 text-on-surface font-bold group-hover:bg-primary group-hover:text-on-primary transition-all">Enroll Now</button>
+</div>
+</div>
+<!-- A2 Level -->
+<div class="group relative bg-surface rounded-3xl overflow-hidden hover:scale-[1.02] transition-all duration-500 gold-glow">
+<div class="h-48 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Classroom discussion in Germany" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVkAPYRJihmUV_QU16FDmkHXG57K5P0iiGrEA45b0vmntR1jb50DSj_USFZbjnBOxnlEuriKtpqpIHKAZS3qhUtwOWw3DNcQQuuQV0yYGdh7aOdYlNTEJvHHmqOO6-ucRVTiyPI-clOo0yvuoGCVZTAo2u-BB4CDEWDNyO3-0R4KqWXDlKrAS41qFQeOazK7tOl_OJj5MNp-xV3gnb-alp3vSzd4IveL_xFTpXwPODX447NHfyTkPiZx_-XOaylsvcCbeIFfz4OLIK"/>
+</div>
+<div class="p-8">
+<div class="flex justify-between items-center mb-4">
+<span class="text-xs font-black bg-primary/10 text-primary px-3 py-1 rounded-md">LEVEL A2</span>
+<span class="text-on-surface-variant text-sm italic">10 Weeks</span>
+</div>
+<h3 class="text-2xl font-headline font-bold mb-4">Intermediate Daily</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-8">Expand your vocabulary to workplace scenarios and complex personal expression.</p>
+<button class="w-full py-3 rounded-xl border border-outline-variant/30 text-on-surface font-bold group-hover:bg-primary group-hover:text-on-primary transition-all">Enroll Now</button>
+</div>
+</div>
+<!-- B1 Level -->
+<div class="group relative bg-surface rounded-3xl overflow-hidden hover:scale-[1.02] transition-all duration-500">
+<div class="h-48 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Advanced students collaborating on a project" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYDYULzNac1nRBeGF2vTha2tVyGX9YdIeGq8gQYRr6gngxCdjZgQ8ZeBEfKA5SgF0fKFR4lB4i2-jCIG7uaHSouRVSwWUaSYaaY984aQjrk9D5BExui-LgRAhVoruQluRv3RLRFk_tS2kVVfYpFnIqWm7IDIbrd8T-yjh9U9hS3TOK_FGuJNDFGiyQ4rw7YoCLKne-5-CbpLmYM6AooeUd3Ync7uzHTpBTl7LjYNzcpdhz1kRI6LgWNTe9lYO5LGc74uwZVrXAPrFw"/>
+</div>
+<div class="p-8">
+<div class="flex justify-between items-center mb-4">
+<span class="text-xs font-black bg-primary/10 text-primary px-3 py-1 rounded-md">LEVEL B1</span>
+<span class="text-on-surface-variant text-sm italic">12 Weeks</span>
+</div>
+<h3 class="text-2xl font-headline font-bold mb-4">Independent Proficiency</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-8">Professional communication, expressing opinions, and understanding nuanced texts.</p>
+<button class="w-full py-3 rounded-xl border border-outline-variant/30 text-on-surface font-bold group-hover:bg-primary group-hover:text-on-primary transition-all">Enroll Now</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials Section -->
+<section class="py-32 overflow-hidden">
+<div class="max-w-7xl mx-auto px-8">
+<h2 class="text-4xl font-headline font-bold text-center mb-20">Voices of Success</h2>
+<div class="flex flex-col md:flex-row gap-8 items-center">
+<div class="w-full md:w-1/2">
+<div class="glass-card p-10 rounded-[2.5rem] relative">
+<span class="material-symbols-outlined text-primary text-6xl absolute -top-8 -left-4 opacity-30">format_quote</span>
+<p class="text-xl md:text-2xl italic leading-relaxed text-on-surface mb-8">
+                            "Kafaaat changed my life. I started with zero German and within 6 months I was able to pass my B1 exam and secure a job in Hamburg. The Arabic-to-German methodology is exactly what I needed."
+                        </p>
+<div class="flex items-center gap-4">
+<img class="w-16 h-16 rounded-full object-cover border-2 border-primary" data-alt="Portrait of a successful male student" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfwVFbsIPZvrGdKS7MMu1Y8V_gpKuV8qpkNbhVWGSKKnO8KounBJFFpbTAHGuocUmgzO7K1zMTzm5rbxRqKVfnPjwEHjxGdg4G67fubkIqVhpA0l9dzpr5VIyCGYwhWc2LzjAJ0xw5uKmBw0zLdEHBKKqs5KF9goJgWD72ts-EhCI_8rrV2npdwpk-Qw6Kg3OM51IZ9Vjd-25d11P2DvIGC8PRtV2199rrPlQ9EQ4LmnmnKcWgahJ7tI6Csi5nd2DaTiK4bTXevq5J"/>
+<div>
+<h4 class="font-bold text-on-surface">Ahmed El-Sayed</h4>
+<p class="text-on-surface-variant text-sm">Mechanical Engineer, Hamburg</p>
+</div>
+</div>
+</div>
+</div>
+<div class="w-full md:w-1/2 flex gap-4 overflow-x-auto pb-8 snap-x">
+<div class="min-w-[300px] bg-surface-container-high p-8 rounded-3xl snap-center">
+<div class="flex text-primary mb-4">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-on-surface-variant mb-6 text-sm">"The interactive sessions are incredible. I feel like I'm already in Germany when I practice with the mentors."</p>
+<h5 class="font-bold text-on-surface">Layla Mansour</h5>
+</div>
+<div class="min-w-[300px] bg-surface-container-high p-8 rounded-3xl snap-center">
+<div class="flex text-primary mb-4">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-on-surface-variant mb-6 text-sm">"Clear, concise, and professional. The B1 course helped me get into a German university program."</p>
+<h5 class="font-bold text-on-surface">Omar Farouk</h5>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="py-32 px-8">
+<div class="max-w-5xl mx-auto bg-gradient-to-br from-primary to-primary-container rounded-[3rem] p-12 md:p-20 text-center relative overflow-hidden shadow-2xl gold-glow">
+<div class="absolute inset-0 opacity-10">
+<svg height="100%" preserveaspectratio="none" viewbox="0 0 100 100" width="100%">
+<pattern height="10" id="grid" patternunits="userSpaceOnUse" width="10">
+<path d="M 10 0 L 0 0 0 10" fill="none" stroke="white" stroke-width="0.5"></path>
+</pattern>
+<rect fill="url(#grid)" height="100%" width="100%"></rect>
+</svg>
+</div>
+<div class="relative z-10">
+<h2 class="text-4xl md:text-6xl font-headline font-extrabold text-on-primary-container mb-8">Start Your Journey <br/> to Germany</h2>
+<p class="text-on-primary-container/80 text-xl max-w-2xl mx-auto mb-12">
+                    Join the next cohort starting next Monday. Limited seats available for our intensive B1 track.
+                </p>
+<div class="flex flex-col md:flex-row gap-4 justify-center">
+<button class="bg-surface-container-lowest text-primary px-10 py-5 rounded-full font-bold text-xl hover:scale-105 transition-all shadow-xl">Get Started Now</button>
+<button class="bg-transparent border-2 border-on-primary-container/30 text-on-primary-container px-10 py-5 rounded-full font-bold text-xl hover:bg-on-primary-container/10 transition-all">Talk to an Advisor</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-[#000f1f] rounded-t-[2rem] mt-20">
+<div class="max-w-7xl mx-auto px-8 py-12 grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="space-y-6">
+<div class="text-xl font-black text-[#f2ca50] font-headline">Kafaaat Academy</div>
+<p class="font-be-vietnam text-sm text-[#d0c5af] leading-relaxed">
+                    Engineering German Excellence for Arabic speakers worldwide. Your trusted partner in language mastery and cultural integration.
+                </p>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-[#f2ca50] cursor-pointer hover:scale-110 transition-transform">public</span>
+<span class="material-symbols-outlined text-[#f2ca50] cursor-pointer hover:scale-110 transition-transform">alternate_email</span>
+<span class="material-symbols-outlined text-[#f2ca50] cursor-pointer hover:scale-110 transition-transform">group</span>
+</div>
+</div>
+<div>
+<h4 class="text-on-surface font-bold mb-6">Quick Links</h4>
+<ul class="space-y-4 font-be-vietnam text-sm text-[#d0c5af]">
+<li><a class="hover:text-[#f2ca50] underline-offset-4 hover:underline transition-all" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-[#f2ca50] underline-offset-4 hover:underline transition-all" href="#">Terms of Service</a></li>
+<li><a class="hover:text-[#f2ca50] underline-offset-4 hover:underline transition-all" href="#">FAQ</a></li>
+<li><a class="hover:text-[#f2ca50] underline-offset-4 hover:underline transition-all" href="#">Support</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-on-surface font-bold mb-6">Learning Tracks</h4>
+<ul class="space-y-4 font-be-vietnam text-sm text-[#d0c5af]">
+<li><a class="hover:text-[#f2ca50] transition-all" href="#">A1 Beginner</a></li>
+<li><a class="hover:text-[#f2ca50] transition-all" href="#">A2 Elementary</a></li>
+<li><a class="hover:text-[#f2ca50] transition-all" href="#">B1 Intermediate</a></li>
+<li><a class="hover:text-[#f2ca50] transition-all" href="#">Exam Preparation</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-on-surface font-bold mb-6">Newsletter</h4>
+<p class="font-be-vietnam text-sm text-[#d0c5af] mb-4">Get tips for learning German delivered to your inbox.</p>
+<div class="flex gap-2">
+<input class="bg-surface-container-high border-none rounded-lg text-sm focus:ring-1 focus:ring-primary w-full" placeholder="Email address" type="email"/>
+<button class="bg-primary text-on-primary px-4 py-2 rounded-lg material-symbols-outlined">send</button>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 py-8 border-t border-outline-variant/10 text-center font-be-vietnam text-sm text-[#d0c5af]">
+            © 2024 Kafaaat Academy. Engineering German Excellence.
+        </div>
+</footer>
+</body></html>

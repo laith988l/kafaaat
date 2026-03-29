@@ -1,0 +1,137 @@
+{
+  "data": [
+    {
+      "id": "a87cf06e-8b90-4c52-9a7c-ea3848b358b2",
+      "name": "Test Msg",
+      "email": "test@example.com",
+      "phone": "123",
+      "course_id": null,
+      "inquiry_type": "General",
+      "message": "Hello World",
+      "status": "pending",
+      "created_at": "2026-03-29T17:06:24.124602+00:00",
+      "is_approved": false
+    },
+    {
+      "id": "16804ed7-6852-4ba8-a99d-b22065d0dabd",
+      "name": "Laith alali",
+      "email": "laith.alali33@gmail.com",
+      "phone": "+962796865744",
+      "course_id": null,
+      "inquiry_type": "استفسار عام",
+      "message": "i love you",
+      "status": "pending",
+      "created_at": "2026-03-29T17:02:19.603122+00:00",
+      "is_approved": false
+    },
+    {
+      "id": "be143202-1842-40e8-9d7b-ade6a88fca4a",
+      "name": "Laith alali",
+      "email": "laith.alali33@gmail.com",
+      "phone": "+962796865744",
+      "course_id": null,
+      "inquiry_type": "استفسار عام",
+      "message": "saddadasdasdasd",
+      "status": "pending",
+      "created_at": "2026-03-29T16:02:33.949145+00:00",
+      "is_approved": false
+    },
+    {
+      "id": "1ba96aa6-41db-4b5e-8721-08b30b88a142",
+      "name": "Laith alali",
+      "email": "laith.alali33@gmail.com",
+      "phone": "+962796865744",
+      "course_id": null,
+      "inquiry_type": "استفسار عام",
+      "message": "sdasdsdsadsadasdas",
+      "status": "pending",
+      "created_at": "2026-03-29T15:59:50.624651+00:00",
+      "is_approved": false
+    },
+    {
+      "id": "8a201b19-524c-4f35-92aa-e1b3c8b6fbd7",
+      "name": "Laith alali",
+      "email": "laith.alali33@gmail.com",
+      "phone": "+962796865744",
+      "course_id": null,
+      "inquiry_type": "استفسار عام",
+      "message": "sdsadasd",
+      "status": "pending",
+      "created_at": "2026-03-29T15:58:32.124432+00:00",
+      "is_approved": false
+    },
+    {
+      "id": "621873c8-c81c-4832-9d88-c4dc3d6b5c7b",
+      "name": "So Logic",
+      "email": "laith.alali33@gmail.com",
+      "phone": "+962796865744",
+      "course_id": null,
+      "inquiry_type": "استفسار عام",
+      "message": "sadsadasdasda",
+      "status": "pending",
+      "created_at": "2026-03-29T15:58:17.245012+00:00",
+      "is_approved": false
+    },
+    {
+      "id": "4d665f57-f1f9-45b2-b14e-4081f73879f1",
+      "name": "Laith alali",
+      "email": "laith.alali33@gmail.com",
+      "phone": "+962796865744",
+      "course_id": null,
+      "inquiry_type": "تسجيل في دورة الألمانية",
+      "message": "ggggggggggggggggggggggggggggggggggggggggg",
+      "status": "pending",
+      "created_at": "2026-03-29T15:55:04.211887+00:00",
+      "is_approved": false
+    },
+    {
+      "id": "0a16c55e-fab1-4cd0-8f5c-ed978a97cd94",
+      "name": "Laith alali",
+      "email": "laith.alali33@gmail.com",
+      "phone": "+962796865744",
+      "course_id": null,
+      "inquiry_type": "استشارة مسار مهني",
+      "message": "ffffffffffffffffffffffffffffffffffff",
+      "status": "pending",
+      "created_at": "2026-03-29T15:53:21.193283+00:00",
+      "is_approved": false
+    },
+    {
+      "id": "b44cc1c0-fb32-4481-894b-b2cf5ff629a3",
+      "name": "Laith alali",
+      "email": "laith.alali33@gmail.com",
+      "phone": "+962796865744",
+      "course_id": null,
+      "inquiry_type": "استفسار عام",
+      "message": "dsfsfsdfsdfsdfsdfsdf",
+      "status": "pending",
+      "created_at": "2026-03-29T15:15:22.153107+00:00",
+      "is_approved": false
+    },
+    {
+      "id": "ad01aa56-62f7-4714-8a74-8e16a74f7848",
+      "name": "sdas",
+      "email": "so.logic.company@gmail.com",
+      "phone": "sdasdasd",
+      "course_id": null,
+      "inquiry_type": "استشارة مسار مهني",
+      "message": "asdasdasdasdasdas",
+      "status": "pending",
+      "created_at": "2026-03-29T15:02:19.098473+00:00",
+      "is_approved": false
+    },
+    {
+      "id": "118d5cdc-7974-41bf-bc44-9f906376086b",
+      "name": "dsd",
+      "email": "sdasd@Dsdasd.com",
+      "phone": "asdasd",
+      "course_id": null,
+      "inquiry_type": "تسجيل في دورة الألمانية",
+      "message": "dsadadsada",
+      "status": "pending",
+      "created_at": "2026-03-28T18:31:41.081838+00:00",
+      "is_approved": false
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "id": "a87cf06e-8b90-4c52-9a7c-ea3848b358b2",
+      "name": "Test Msg",
+      "email": "test@example.com",
+      "phone": "123",
+      "course_id": null,
+      "inquiry_type": "General",
+      "message": "Hello World",
+      "status": "pending",
+      "created_at": "2026-03-29T17:06:24.124602+00:00",
+      "is_approved": false
+    }
+  ],
+  "error": null
+}

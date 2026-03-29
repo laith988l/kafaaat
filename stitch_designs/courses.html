@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Be+Vietnam+Pro:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary": "#690006",
+              "surface-container-low": "#0c1d2d",
+              "on-tertiary-fixed-variant": "#93000d",
+              "on-secondary-fixed": "#241a00",
+              "tertiary": "#ffbfb8",
+              "secondary": "#ecc246",
+              "primary": "#f2ca50",
+              "surface-container-highest": "#263647",
+              "error-container": "#93000a",
+              "on-secondary-fixed-variant": "#584400",
+              "primary-fixed-dim": "#e9c349",
+              "outline-variant": "#4d4635",
+              "on-primary-fixed-variant": "#574500",
+              "on-primary-fixed": "#241a00",
+              "on-surface": "#d3e4fa",
+              "background": "#041424",
+              "on-error-container": "#ffdad6",
+              "on-primary-container": "#554300",
+              "tertiary-fixed-dim": "#ffb4ab",
+              "surface": "#041424",
+              "on-secondary-container": "#352800",
+              "on-surface-variant": "#d0c5af",
+              "secondary-fixed": "#ffe08e",
+              "primary-container": "#d4af37",
+              "on-tertiary-container": "#90000c",
+              "on-tertiary-fixed": "#410002",
+              "outline": "#99907c",
+              "inverse-on-surface": "#223243",
+              "secondary-container": "#b18c09",
+              "surface-bright": "#2b3a4c",
+              "surface-variant": "#263647",
+              "inverse-primary": "#735c00",
+              "on-error": "#690005",
+              "secondary-fixed-dim": "#ecc246",
+              "on-background": "#d3e4fa",
+              "surface-container-high": "#1b2b3c",
+              "primary-fixed": "#ffe088",
+              "on-primary": "#3c2f00",
+              "inverse-surface": "#d3e4fa",
+              "surface-container": "#102131",
+              "surface-dim": "#041424",
+              "on-secondary": "#3d2e00",
+              "surface-tint": "#e9c349",
+              "surface-container-lowest": "#000f1f",
+              "error": "#ffb4ab",
+              "tertiary-container": "#ff968c",
+              "tertiary-fixed": "#ffdad6"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Be Vietnam Pro"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .glass-card {
+        background: rgba(38, 54, 71, 0.4);
+        backdrop-filter: blur(12px);
+        border-top: 1px solid rgba(233, 195, 73, 0.15);
+        border-left: 1px solid rgba(233, 195, 73, 0.15);
+      }
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+    </style>
+</head>
+<body class="bg-background font-body text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#263647]/80 backdrop-blur-md shadow-[0_24px_24px_rgba(233,195,73,0.06)]">
+<div class="max-w-7xl mx-auto px-8 flex justify-between items-center h-20">
+<div class="text-2xl font-bold text-[#f2ca50] tracking-tight font-headline">Kafaaat</div>
+<div class="hidden md:flex gap-8 items-center font-manrope text-sm font-medium tracking-wide">
+<a class="text-[#d0c5af] hover:text-[#f2ca50] transition-colors hover:scale-105" href="#">Home</a>
+<a class="text-[#d0c5af] hover:text-[#f2ca50] transition-colors hover:scale-105" href="#">About Us</a>
+<a class="text-[#f2ca50] font-bold border-b-2 border-[#f2ca50] pb-1" href="#">Courses</a>
+<a class="text-[#d0c5af] hover:text-[#f2ca50] transition-colors hover:scale-105" href="#">Blog</a>
+<a class="text-[#d0c5af] hover:text-[#f2ca50] transition-colors hover:scale-105" href="#">Contact Us</a>
+</div>
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary font-bold px-6 py-2.5 rounded-full hover:shadow-[0_0_20px_rgba(242,202,80,0.2)] transition-all active:scale-95">
+                Start Learning
+            </button>
+</div>
+</nav>
+<main class="pt-32 pb-20 px-6">
+<!-- Hero Section for Courses -->
+<section class="max-w-7xl mx-auto mb-20 text-center md:text-left">
+<h1 class="font-headline text-5xl md:text-7xl font-extrabold text-on-surface tracking-tighter mb-6">
+                Master German with <span class="text-primary">Precision</span>
+</h1>
+<p class="text-on-surface-variant text-lg max-w-2xl mb-12">
+                Engineered for excellence. Our structured pathways bridge the gap between intermediate learning and professional fluency.
+            </p>
+</section>
+<!-- Course Grid -->
+<section class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
+<!-- German A1 -->
+<div class="glass-card rounded-xl p-8 flex flex-col h-full hover:bg-surface-container-high transition-colors duration-300">
+<div class="flex justify-between items-start mb-6">
+<span class="text-primary font-headline text-3xl font-bold">A1</span>
+<span class="bg-surface-container-low px-3 py-1 rounded-lg text-xs font-bold text-on-surface-variant uppercase tracking-widest">Beginner</span>
+</div>
+<h3 class="font-headline text-2xl font-bold mb-4">Grundlagen Deutsch</h3>
+<p class="text-on-surface-variant mb-6 flex-grow">
+                    Build a rock-solid foundation in German grammar and everyday vocabulary. Perfect for those starting their journey from zero.
+                </p>
+<div class="space-y-4 mb-8">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-xl">verified</span>
+<span class="text-sm">Basic conversation &amp; structure</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-xl">schedule</span>
+<span class="text-sm">12 Weeks | 48 Contact Hours</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-xl">payments</span>
+<span class="text-lg font-bold text-on-surface">€450.00</span>
+</div>
+</div>
+<button class="w-full py-4 bg-surface-container-highest text-primary border border-outline-variant/20 rounded-xl font-bold hover:bg-primary hover:text-on-primary transition-all active:scale-[0.98]">
+                    Enroll Now
+                </button>
+</div>
+<!-- German A2 -->
+<div class="glass-card rounded-xl p-8 flex flex-col h-full hover:bg-surface-container-high transition-colors duration-300">
+<div class="flex justify-between items-start mb-6">
+<span class="text-primary font-headline text-3xl font-bold">A2</span>
+<span class="bg-surface-container-low px-3 py-1 rounded-lg text-xs font-bold text-on-surface-variant uppercase tracking-widest">Elementary</span>
+</div>
+<h3 class="font-headline text-2xl font-bold mb-4">Aufbaukurs Deutsch</h3>
+<p class="text-on-surface-variant mb-6 flex-grow">
+                    Expand your reach. Communicate about familiar topics with greater nuance and master past-tense structures.
+                </p>
+<div class="space-y-4 mb-8">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-xl">verified</span>
+<span class="text-sm">Past tense &amp; relative clauses</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-xl">schedule</span>
+<span class="text-sm">10 Weeks | 40 Contact Hours</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-xl">payments</span>
+<span class="text-lg font-bold text-on-surface">€480.00</span>
+</div>
+</div>
+<button class="w-full py-4 bg-surface-container-highest text-primary border border-outline-variant/20 rounded-xl font-bold hover:bg-primary hover:text-on-primary transition-all active:scale-[0.98]">
+                    Enroll Now
+                </button>
+</div>
+<!-- German B1 -->
+<div class="glass-card rounded-xl p-8 flex flex-col h-full hover:bg-surface-container-high transition-colors duration-300">
+<div class="flex justify-between items-start mb-6">
+<span class="text-primary font-headline text-3xl font-bold">B1</span>
+<span class="bg-surface-container-low px-3 py-1 rounded-lg text-xs font-bold text-on-surface-variant uppercase tracking-widest">Intermediate</span>
+</div>
+<h3 class="font-headline text-2xl font-bold mb-4">Fortgeschritten I</h3>
+<p class="text-on-surface-variant mb-6 flex-grow">
+                    The bridge to independence. Navigate life in Germany with confidence and engage in detailed discussions.
+                </p>
+<div class="space-y-4 mb-8">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-xl">verified</span>
+<span class="text-sm">Complex syntax &amp; debates</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-xl">schedule</span>
+<span class="text-sm">14 Weeks | 56 Contact Hours</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-xl">payments</span>
+<span class="text-lg font-bold text-on-surface">€520.00</span>
+</div>
+</div>
+<button class="w-full py-4 bg-gradient-to-br from-primary to-primary-container text-on-primary rounded-xl font-bold hover:shadow-[0_0_25px_rgba(242,202,80,0.15)] transition-all active:scale-[0.98]">
+                    Enroll Now
+                </button>
+</div>
+</section>
+<!-- Additional Services - Bento Grid -->
+<section class="max-w-7xl mx-auto">
+<h2 class="font-headline text-3xl font-bold mb-10 border-l-4 border-primary pl-6">Academy Services</h2>
+<div class="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-4 h-auto md:h-[500px]">
+<!-- Exam Prep -->
+<div class="md:col-span-2 md:row-span-2 bg-surface-container-low rounded-xl p-8 flex flex-col justify-end relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-[120px]">description</span>
+</div>
+<div class="relative z-10">
+<h4 class="font-headline text-2xl font-bold text-primary mb-4">Exam Preparation</h4>
+<p class="text-on-surface-variant mb-6">Dedicated training for Goethe, Telc, and TestDaF certifications. We simulate exam environments to ensure success.</p>
+<a class="inline-flex items-center gap-2 text-primary font-bold hover:underline underline-offset-4" href="#">
+                            Learn more <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Private Lessons -->
+<div class="md:col-span-2 bg-surface-container p-8 rounded-xl flex items-center gap-6 hover:bg-surface-container-high transition-colors">
+<div class="bg-surface-container-highest p-4 rounded-full">
+<span class="material-symbols-outlined text-primary text-3xl">person</span>
+</div>
+<div>
+<h4 class="font-headline text-xl font-bold mb-1">Private Lessons</h4>
+<p class="text-on-surface-variant text-sm">One-on-one tailored coaching for specific goals.</p>
+</div>
+</div>
+<!-- Conversation Training -->
+<div class="bg-surface-container p-8 rounded-xl flex flex-col justify-center hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-primary mb-4">forum</span>
+<h4 class="font-headline font-bold mb-1">Conversation</h4>
+<p class="text-on-surface-variant text-sm">Speaking fluency and pronunciation.</p>
+</div>
+<!-- Study Consultation -->
+<div class="bg-surface-container-highest p-8 rounded-xl flex flex-col justify-center border border-primary/10 hover:border-primary/40 transition-all">
+<span class="material-symbols-outlined text-primary mb-4">school</span>
+<h4 class="font-headline font-bold mb-1">Study in Germany</h4>
+<p class="text-on-surface-variant text-sm">Consultation for university applications.</p>
+</div>
+</div>
+</section>
+<!-- Trust Section -->
+<section class="max-w-7xl mx-auto mt-24 py-16 px-8 rounded-[2rem] bg-gradient-to-r from-surface-container-lowest to-surface-container-low flex flex-col md:flex-row items-center justify-between gap-12">
+<div class="md:w-1/2">
+<h2 class="font-headline text-3xl font-bold mb-6">Why German Excellence?</h2>
+<div class="space-y-6">
+<div class="flex gap-4">
+<div class="w-1.5 h-auto bg-primary rounded-full"></div>
+<p class="text-on-surface-variant"><strong class="text-on-surface block">Certified Instructors</strong> Native speakers and experts with years of pedagogy in German as a foreign language.</p>
+</div>
+<div class="flex gap-4">
+<div class="w-1.5 h-auto bg-primary rounded-full"></div>
+<p class="text-on-surface-variant"><strong class="text-on-surface block">Smart Curriculum</strong> Integrated digital learning materials following CEFR standards.</p>
+</div>
+</div>
+</div>
+<div class="md:w-1/3 aspect-square bg-surface-container-highest rounded-full flex items-center justify-center border-8 border-surface-container relative">
+<div class="absolute inset-0 bg-primary opacity-5 blur-3xl rounded-full"></div>
+<div class="text-center">
+<div class="text-5xl font-black text-primary font-headline">98%</div>
+<div class="text-on-surface-variant font-medium tracking-widest uppercase text-xs mt-2">Pass Rate</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#000f1f] rounded-t-[2rem] mt-20">
+<div class="max-w-7xl mx-auto px-8 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="space-y-4">
+<div class="text-xl font-black text-[#f2ca50]">Kafaaat</div>
+<p class="font-be-vietnam text-sm text-[#d0c5af] leading-relaxed">
+                    Elevating German language education with technical precision and cultural depth. Join the elite circle of learners.
+                </p>
+</div>
+<div>
+<h5 class="text-[#f2ca50] font-bold mb-6">Quick Links</h5>
+<ul class="space-y-4 font-be-vietnam text-sm text-[#d0c5af]">
+<li><a class="hover:text-[#f2ca50] underline-offset-4 hover:underline transition-all duration-200" href="#">German Courses</a></li>
+<li><a class="hover:text-[#f2ca50] underline-offset-4 hover:underline transition-all duration-200" href="#">Visa Consultation</a></li>
+<li><a class="hover:text-[#f2ca50] underline-offset-4 hover:underline transition-all duration-200" href="#">Scholarships</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-[#f2ca50] font-bold mb-6">Resources</h5>
+<ul class="space-y-4 font-be-vietnam text-sm text-[#d0c5af]">
+<li><a class="hover:text-[#f2ca50] underline-offset-4 hover:underline transition-all duration-200" href="#">FAQ</a></li>
+<li><a class="hover:text-[#f2ca50] underline-offset-4 hover:underline transition-all duration-200" href="#">Support</a></li>
+<li><a class="hover:text-[#f2ca50] underline-offset-4 hover:underline transition-all duration-200" href="#">Privacy Policy</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-[#f2ca50] font-bold mb-6">Connect</h5>
+<div class="flex gap-4">
+<a class="bg-surface-container-high w-10 h-10 rounded-full flex items-center justify-center hover:bg-primary transition-all" href="#">
+<span class="material-symbols-outlined text-sm">alternate_email</span>
+</a>
+<a class="bg-surface-container-high w-10 h-10 rounded-full flex items-center justify-center hover:bg-primary transition-all" href="#">
+<span class="material-symbols-outlined text-sm">public</span>
+</a>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 py-8 border-t border-white/5 text-center">
+<p class="font-be-vietnam text-sm text-[#d0c5af] opacity-60">© 2024 Kafaaat Academy. Engineering German Excellence.</p>
+</div>
+</footer>
+</body></html>

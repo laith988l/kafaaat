@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;family=Be+Vietnam+Pro:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary": "#690006",
+              "surface-container-low": "#0c1d2d",
+              "on-tertiary-fixed-variant": "#93000d",
+              "on-secondary-fixed": "#241a00",
+              "tertiary": "#ffbfb8",
+              "secondary": "#ecc246",
+              "primary": "#f2ca50",
+              "surface-container-highest": "#263647",
+              "error-container": "#93000a",
+              "on-secondary-fixed-variant": "#584400",
+              "primary-fixed-dim": "#e9c349",
+              "outline-variant": "#4d4635",
+              "on-primary-fixed-variant": "#574500",
+              "on-primary-fixed": "#241a00",
+              "on-surface": "#d3e4fa",
+              "background": "#041424",
+              "on-error-container": "#ffdad6",
+              "on-primary-container": "#554300",
+              "tertiary-fixed-dim": "#ffb4ab",
+              "surface": "#041424",
+              "on-secondary-container": "#352800",
+              "on-surface-variant": "#d0c5af",
+              "secondary-fixed": "#ffe08e",
+              "primary-container": "#d4af37",
+              "on-tertiary-container": "#90000c",
+              "on-tertiary-fixed": "#410002",
+              "outline": "#99907c",
+              "inverse-on-surface": "#223243",
+              "secondary-container": "#b18c09",
+              "surface-bright": "#2b3a4c",
+              "surface-variant": "#263647",
+              "inverse-primary": "#735c00",
+              "on-error": "#690005",
+              "secondary-fixed-dim": "#ecc246",
+              "on-background": "#d3e4fa",
+              "surface-container-high": "#1b2b3c",
+              "primary-fixed": "#ffe088",
+              "on-primary": "#3c2f00",
+              "inverse-surface": "#d3e4fa",
+              "surface-container": "#102131",
+              "surface-dim": "#041424",
+              "on-secondary": "#3d2e00",
+              "surface-tint": "#e9c349",
+              "surface-container-lowest": "#000f1f",
+              "error": "#ffb4ab",
+              "tertiary-container": "#ff968c",
+              "tertiary-fixed": "#ffdad6"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Be Vietnam Pro"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-card {
+        background: rgba(38, 54, 71, 0.4);
+        backdrop-filter: blur(12px);
+        border-top: 1px solid rgba(242, 202, 80, 0.15);
+        border-left: 1px solid rgba(242, 202, 80, 0.15);
+      }
+      .metallic-glow {
+        background: linear-gradient(135deg, #f2ca50 0%, #d4af37 100%);
+      }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#263647]/80 backdrop-blur-md shadow-[0_24px_24px_rgba(233,195,73,0.06)]">
+<div class="max-w-7xl mx-auto px-8 flex justify-between items-center h-20">
+<div class="text-2xl font-bold text-[#f2ca50] tracking-tight font-headline">Kafaaat</div>
+<div class="hidden md:flex items-center gap-8 font-manrope text-sm font-medium tracking-wide">
+<a class="text-[#d0c5af] hover:text-[#f2ca50] transition-colors hover:scale-105" href="#">Home</a>
+<a class="text-[#f2ca50] font-bold border-b-2 border-[#f2ca50] pb-1 hover:scale-105" href="#">About Us</a>
+<a class="text-[#d0c5af] hover:text-[#f2ca50] transition-colors hover:scale-105" href="#">Courses</a>
+<a class="text-[#d0c5af] hover:text-[#f2ca50] transition-colors hover:scale-105" href="#">Blog</a>
+<a class="text-[#d0c5af] hover:text-[#f2ca50] transition-colors hover:scale-105" href="#">Contact Us</a>
+</div>
+<button class="metallic-glow px-6 py-2.5 rounded-full text-on-primary-container font-headline font-bold text-sm hover:shadow-[0_0_20px_rgba(242,202,80,0.3)] transition-all active:scale-95">
+                Start Learning
+            </button>
+</div>
+</nav>
+<main class="pt-20">
+<!-- Hero Narrative Section -->
+<section class="relative min-h-[716px] flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-gradient-to-r from-background via-background/90 to-transparent z-10"></div>
+<img class="w-full h-full object-cover grayscale opacity-40" data-alt="Luxurious dark university library with gold lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZsKXAbkwg9REE36n-aNU1Y-S6SUlb93j4bzGsf3rJ_lPcuB1irwPOcA8EToYB-q9N2vSebmghxxPyDIymtO4KWQYzMjleIM22v9V81Tid6Kmr9Y7TftUcfKqP2Yutpv29a3BqQOLFYB2EaGaULBYf03KB-4Czh6wybgMK0onGmuFOSyUTU5pbFTlcOtJ2Pxz8k8eW_ULqUG_UDoM3VuyPcHc0tXsgvqukIoFAfQWNELXF3xlRZUsinvluIpTT2x3iD2OUYYAoMLsq"/>
+</div>
+<div class="max-w-7xl mx-auto px-8 relative z-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="space-y-8">
+<span class="inline-block px-4 py-1 rounded-full border border-primary/30 text-primary text-xs font-headline font-bold uppercase tracking-widest bg-primary/5">The Academy Legacy</span>
+<h1 class="text-5xl md:text-7xl font-headline font-bold text-on-surface leading-tight -tracking-[0.02em]">
+                        Engineering <span class="text-primary italic">Excellence</span> Across Borders.
+                    </h1>
+<p class="text-lg text-on-surface-variant leading-relaxed max-w-xl">
+                        Kafaaat Academy was born from a vision to bridge the intellectual gap between the Middle East and the heart of European innovation. We don't just teach a language; we cultivate the cultural and technical fluency required to thrive in Germany's elite academic circles.
+                    </p>
+</div>
+<div class="hidden lg:block">
+<div class="glass-card p-2 rounded-[2rem] transform rotate-3 hover:rotate-0 transition-transform duration-500">
+<img class="rounded-[1.8rem] w-full aspect-square object-cover shadow-2xl" data-alt="Students collaborating in a high-end modern classroom" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEs2aOCLkehFshhQ69tzSJHTcRCQoajoNEaAt9TKM65Ksl05mHmC9N7778MTVUsmTZoi0KfXOZy7jdpfLr6-DN2hZnrIRdRlSZYE2zTnG4NRIhvdILCdNu-jQ_U-IBY7IAvZGGS6XDr9wjVXKlozCPEgusc4oVQJ2rkcxsoBdyN0zbkSysz2hnLNTPloQ42OoowvNnhHbI9YA4ziFjQPsH3zaY_CB5RyQQ95OaFAYPmdeE_oWzq903vD2MhXBPKP48RnRsUIK6KKIN"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Mission & Methodology (Bento Grid) -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8">
+<div class="mb-16 text-center max-w-2xl mx-auto">
+<h2 class="text-4xl font-headline font-bold text-on-surface mb-6">A Method Refined for You</h2>
+<p class="text-on-surface-variant">Designed specifically for Arabic speakers, our curriculum respects your linguistic heritage while fast-tracking your German proficiency.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 h-auto md:h-[600px]">
+<!-- Mission -->
+<div class="md:col-span-2 glass-card p-10 flex flex-col justify-end relative overflow-hidden group">
+<div class="absolute top-10 right-10 text-primary/10 group-hover:text-primary/20 transition-colors">
+<span class="material-symbols-outlined !text-9xl" style="font-variation-settings: 'FILL' 1;">language</span>
+</div>
+<h3 class="text-3xl font-headline font-bold text-primary mb-4">Our Mission</h3>
+<p class="text-xl text-on-surface leading-relaxed max-w-2xl">
+                            To empower a new generation of Arabic engineers, doctors, and innovators with the keys to the German educational powerhouse. We believe that language should never be a barrier to genius.
+                        </p>
+</div>
+<!-- Tech Stack -->
+<div class="bg-surface-container p-10 rounded-xl flex flex-col items-center justify-center text-center space-y-6">
+<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-3xl">terminal</span>
+</div>
+<h3 class="text-xl font-headline font-bold">Linguistic Engineering</h3>
+<p class="text-sm text-on-surface-variant">We treat German grammar like logic gates, making it intuitive for technical minds.</p>
+</div>
+<!-- Arabic Support -->
+<div class="bg-surface-container-high p-10 rounded-xl flex flex-col justify-between">
+<span class="material-symbols-outlined text-primary text-4xl">psychology</span>
+<div>
+<h3 class="text-xl font-headline font-bold mb-2">Cognitive Arabic Mapping</h3>
+<p class="text-sm text-on-surface-variant">Leveraging comparative linguistics to explain German structures through Arabic conceptual frameworks.</p>
+</div>
+</div>
+<!-- Fast Track -->
+<div class="md:col-span-2 glass-card p-10 flex items-center gap-8">
+<div class="flex-shrink-0 w-24 h-24 rounded-full border-2 border-primary/20 flex items-center justify-center">
+<span class="text-3xl font-headline font-extrabold text-primary">60%</span>
+</div>
+<div>
+<h3 class="text-xl font-headline font-bold mb-1">Accelerated Fluency</h3>
+<p class="text-on-surface-variant">Our unique focus on academic German reduces learning time by 60% compared to generic conversational apps.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why German? Educational Section -->
+<section class="py-24">
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div class="relative">
+<div class="absolute -top-10 -left-10 w-40 h-40 bg-primary/10 rounded-full blur-3xl"></div>
+<img class="rounded-[2rem] shadow-2xl grayscale hover:grayscale-0 transition-all duration-700" data-alt="Panoramic view of a German university town" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBB18s_tLUEcBMjq3-LgKUiULtXim1FHhN-bd_eSad4AzNnlPFr6n6-lRw7cYdT_FyFUA0xP-MtpQHx2qfVsCu-NsTzJEnqcFuyHXuf9TMlCpmrjzS4Hl5a9LhzOqmGYVmbcyGKOAsD9m5MhLN-fv7aIdFl4NmFq4Vte7zR3R2iwnpZyC7mOrpTc5p8QOYLrDJLailPsJAn6S8jG2_JbrsgzdwQ1_mRCeLRN9O59kYqCvaDDTMBScb-supYbzA9I53IvslbnG8HWnvB"/>
+<div class="absolute -bottom-6 -right-6 glass-card p-6 rounded-2xl shadow-xl max-w-xs">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+<span class="text-sm font-bold">Official TestDaF Training Center</span>
+</div>
+</div>
+</div>
+<div class="space-y-8">
+<h2 class="text-4xl font-headline font-bold text-on-surface">Why Germany?</h2>
+<div class="space-y-6">
+<div class="flex gap-4">
+<span class="flex-shrink-0 w-8 h-8 rounded bg-primary/10 text-primary flex items-center justify-center font-bold">1</span>
+<div>
+<h4 class="font-bold text-lg mb-1">World-Class Education, Tuition-Free</h4>
+<p class="text-on-surface-variant text-sm">Access some of the globe's highest-ranking universities without the burden of tuition fees.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<span class="flex-shrink-0 w-8 h-8 rounded bg-primary/10 text-primary flex items-center justify-center font-bold">2</span>
+<div>
+<h4 class="font-bold text-lg mb-1">The Engineering Hub of Europe</h4>
+<p class="text-on-surface-variant text-sm">Germany offers unparalleled internship and career opportunities in automotive, tech, and medicine.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<span class="flex-shrink-0 w-8 h-8 rounded bg-primary/10 text-primary flex items-center justify-center font-bold">3</span>
+<div>
+<h4 class="font-bold text-lg mb-1">Quality of Life &amp; Stability</h4>
+<p class="text-on-surface-variant text-sm">Live in one of the safest and most economically stable nations in the world.</p>
+</div>
+</div>
+</div>
+<button class="flex items-center gap-3 text-primary font-headline font-bold hover:gap-5 transition-all group">
+                        Explore our University Placement Program
+                        <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Instructors Section -->
+<section class="py-24 bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex justify-between items-end mb-16">
+<div>
+<h2 class="text-4xl font-headline font-bold text-on-surface mb-2">The Masters of Kafaaat</h2>
+<p class="text-on-surface-variant">Guided by native speakers and cross-cultural experts.</p>
+</div>
+<div class="hidden md:flex gap-4">
+<button class="w-12 h-12 rounded-full border border-outline-variant/30 flex items-center justify-center hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button class="w-12 h-12 rounded-full border border-primary/30 flex items-center justify-center text-primary hover:bg-primary/5 transition-colors">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Instructor 1 -->
+<div class="group cursor-pointer">
+<div class="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110" data-alt="Professional male instructor in a sharp suit" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQki9pw9aTlUa4vj1JntlptVU4cYKcmR8EFCENPEsgNdXvetyz1X8ils-wILxSXtDKs1lFr0_D80bPO_R4JYMUo1ELA30pFNGFrqGj5kosw0pNX51f9nMqp6Ezp9EvCdGpKKK3AYN4a8NUt_vR6WVoPpYbWYNQSlIecmBCfJoEx1x_WAdVhBMCIyNnW0k-e8hGWKKe5y11uCyQ52lAtpotbz2E-kEMbH3CgRJCj9yBH1PWBfJiDSykF4kKF6F7NuXjsT0Ck-5g3Jnt"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-60"></div>
+</div>
+<h3 class="text-xl font-headline font-bold text-on-surface">Dr. Stefan Müller</h3>
+<p class="text-primary text-xs font-headline font-bold uppercase tracking-wider mb-2">Head of Linguistics</p>
+<p class="text-on-surface-variant text-sm line-clamp-2">Ex-Heidelberg University Professor with 15 years of Arabic-German teaching expertise.</p>
+</div>
+<!-- Instructor 2 -->
+<div class="group cursor-pointer">
+<div class="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110" data-alt="Professional female instructor smiling confidently" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuY9WrExcHk25LTZ8mes1g14oxm_U9_ObaIq7HDjtrhGYfqf5h472ZbD9zXkbhl-OwLiU-bUwyZ3q8_KnJBMSZwtDf43lAQANCzLrVSwhArXeXExmXyjRE0XeDCaaYTLbEUrVljnqwDvPW62UeR9IjJb8C3N9Vr4a3IYSRTB4rhNQ4v3K4R5vbF1j4LW5kj2ivcfc3vIZe2a2VL2qRr0DOv_ByV5TUZbl07W4Wyz-VgXK9gr83c_nH-1IQ29JSLnpkOf6zq6FhZoBh"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-60"></div>
+</div>
+<h3 class="text-xl font-headline font-bold text-on-surface">Layla Al-Farsi</h3>
+<p class="text-primary text-xs font-headline font-bold uppercase tracking-wider mb-2">Cultural Integration Specialist</p>
+<p class="text-on-surface-variant text-sm line-clamp-2">Specializing in bridging the cultural nuances for international students in Berlin.</p>
+</div>
+<!-- Instructor 3 -->
+<div class="group cursor-pointer">
+<div class="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110" data-alt="Young male instructor in academic setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWwwOyz5qv5dJwK5NfJGoOxbko1DbGFAo9TDdMbfHERX4Cwr-RoiQv7kafnfHta5WGt8DI6OyM-jj-9SIHWAavMjGSQ5ZdQAIwSFhJaXMjM2HotrLvQwHNV4gA0IvRTd_x-aRnsg7_uPk17KxfXFYfs6u0pA6_pv4dxLD_dmp7JGXbvXGnV-tQIk6vIRIZ-PzdoJFPSTQbtNhl2D3YPlkCEXbFK987_MSJXaiiuYGj1qghfJsIpu_mJN_UhjqADdGtGKeizTelD99J"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-60"></div>
+</div>
+<h3 class="text-xl font-headline font-bold text-on-surface">Marc Reus</h3>
+<p class="text-primary text-xs font-headline font-bold uppercase tracking-wider mb-2">Academic German Coach</p>
+<p class="text-on-surface-variant text-sm line-clamp-2">Helping students master the rigorous language of German engineering and medicine.</p>
+</div>
+<!-- Instructor 4 -->
+<div class="group cursor-pointer">
+<div class="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110" data-alt="Experienced female academic professional" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgDu-KGky1tTzFf60mLTBZQv5JrNhSCM-wCAxBfzNFEAkfyxycKU2-mWyn71aRhTSIiDCCoE-E2bJpyDCueH6gLindrzkFJwhmoyNTdtd43EQAJR6LE4g5ALE0t9gM2qN90BG08pprOTooadIsJICVmb34EuoXY-SZJ43T8vT2VrNMQSFA2h8f3HCjSF8-cBZQ2uELE4qS4eRWm9Dfp42eoNHmosxti8eiQ1ymOJF_km673rNyCi6rLEt5Fy0xbaJE242eE_HFxVA4"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-60"></div>
+</div>
+<h3 class="text-xl font-headline font-bold text-on-surface">Helga Schmidt</h3>
+<p class="text-primary text-xs font-headline font-bold uppercase tracking-wider mb-2">Technical German Director</p>
+<p class="text-on-surface-variant text-sm line-clamp-2">Over 20 years of experience in preparing students for the TestDaF and DSH examinations.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-24 max-w-7xl mx-auto px-8">
+<div class="glass-card rounded-[3rem] p-16 text-center space-y-8 relative overflow-hidden">
+<div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-primary/50 to-transparent"></div>
+<h2 class="text-4xl md:text-5xl font-headline font-bold">Ready to Start Your <br/><span class="text-primary italic">German Journey?</span></h2>
+<p class="text-on-surface-variant max-w-xl mx-auto">Join the ranks of successful Kafaaat graduates currently studying and working in Germany.</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<button class="metallic-glow px-10 py-4 rounded-full text-on-primary-container font-headline font-bold text-lg hover:scale-105 transition-transform">Apply for Fall 2024</button>
+<button class="px-10 py-4 rounded-full border border-primary text-primary font-headline font-bold text-lg hover:bg-primary/5 transition-colors">Book a Consultation</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#000f1f] rounded-t-[2rem] mt-20">
+<div class="max-w-7xl mx-auto px-8 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="space-y-4">
+<div class="text-xl font-black text-[#f2ca50] font-headline">Kafaaat</div>
+<p class="font-be-vietnam text-sm text-[#d0c5af]">Pioneering academic excellence and linguistic mastery for the Middle Eastern leaders of tomorrow.</p>
+</div>
+<div class="space-y-4">
+<h4 class="text-on-surface font-headline font-bold uppercase text-xs tracking-widest">Resources</h4>
+<div class="flex flex-col gap-2 font-be-vietnam text-sm text-[#d0c5af]">
+<a class="hover:text-[#f2ca50] transition-all underline-offset-4 hover:underline" href="#">Support</a>
+<a class="hover:text-[#f2ca50] transition-all underline-offset-4 hover:underline" href="#">FAQ</a>
+</div>
+</div>
+<div class="space-y-4">
+<h4 class="text-on-surface font-headline font-bold uppercase text-xs tracking-widest">Legal</h4>
+<div class="flex flex-col gap-2 font-be-vietnam text-sm text-[#d0c5af]">
+<a class="hover:text-[#f2ca50] transition-all underline-offset-4 hover:underline" href="#">Privacy Policy</a>
+<a class="hover:text-[#f2ca50] transition-all underline-offset-4 hover:underline" href="#">Terms of Service</a>
+</div>
+</div>
+<div class="space-y-4">
+<h4 class="text-on-surface font-headline font-bold uppercase text-xs tracking-widest">Connect</h4>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-[#d0c5af] hover:text-[#f2ca50] cursor-pointer transition-colors">public</span>
+<span class="material-symbols-outlined text-[#d0c5af] hover:text-[#f2ca50] cursor-pointer transition-colors">school</span>
+<span class="material-symbols-outlined text-[#d0c5af] hover:text-[#f2ca50] cursor-pointer transition-colors">share</span>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 py-6 border-t border-outline-variant/10 text-center md:text-left">
+<p class="font-be-vietnam text-sm text-[#d0c5af]">© 2024 Kafaaat Academy. Engineering German Excellence.</p>
+</div>
+</footer>
+</body></html>
