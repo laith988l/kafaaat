@@ -10,7 +10,6 @@ const ALLOWED_ADMIN_EMAILS = [
   "info@kafaaat.academy", // Default admin
   "ghyathalali33@gmail.com",
   "laith.alali33@gmail.com",
-  "admin@kafaat.com", // Local development admin
 ].filter(Boolean) as string[];
 
 /**
